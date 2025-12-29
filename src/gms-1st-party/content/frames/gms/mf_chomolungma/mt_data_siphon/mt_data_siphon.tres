@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=6 format=3 uid="uid://dricsmb4au65v"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_wsxcs"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_0vim1"]
+[ext_resource type="Resource" uid="uid://dtwdrqrrm6wit" path="res://content/frames/gms/mf_chomolungma/mt_data_siphon/action_data_siphon.tres" id="2_xkyug"]
+[ext_resource type="Texture2D" uid="uid://c3pas4bglk2li" path="res://assets/icons/actions/systems/ms_scan.svg" id="3_5ulb3"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_xkyug"]
+
+[resource]
+script = ExtResource("3_xkyug")
+actions = Array[ExtResource("1_wsxcs")]([ExtResource("2_xkyug")])
+is_trait = true
+icon_override = ExtResource("3_5ulb3")
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=10 format=3 uid="uid://dgy82go30hrar"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_7yips"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_etsqn"]
+[ext_resource type="Texture2D" uid="uid://cbvr55dprw12a" path="res://assets/icons/modded/ipsn-caliban/wm_supermassive_mod.png" id="2_mjldu"]
+[ext_resource type="Resource" uid="uid://dx4wpuuxc3kpk" path="res://content/gear/ipsn/systems/wm_supermassive_mod/passive_supermassive_mod.tres" id="3_etsqn"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_mjldu"]
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="5_enc1c"]
+[ext_resource type="Resource" uid="uid://ct37gisbt3vwg" path="res://content/gear/ipsn/systems/wm_supermassive_mod/buff_supermassive_mod_knockback.tres" id="6_enc1c"]
+[ext_resource type="Script" uid="uid://dy4kg537rc55e" path="res://engine/character/gear_passive/passive_buff_applicator.gd" id="7_2b1ar"]
+
+[sub_resource type="Resource" id="Resource_6x8v6"]
+script = ExtResource("7_2b1ar")
+applied_buffs = Array[ExtResource("5_enc1c")]([ExtResource("6_enc1c")])
+metadata/_custom_type_script = "uid://dy4kg537rc55e"
+
+[resource]
+script = ExtResource("3_mjldu")
+passives = Array[ExtResource("2_etsqn")]([ExtResource("3_etsqn"), SubResource("Resource_6x8v6")])
+sp_cost = 1
+system_tags = 1
+icon_override = ExtResource("2_mjldu")
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

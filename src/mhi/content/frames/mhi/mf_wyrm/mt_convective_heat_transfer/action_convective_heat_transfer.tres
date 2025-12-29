@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=4 format=3 uid="uid://dawhnv8eenmbt"]
+
+[ext_resource type="Script" uid="uid://c6vf5m7n8p7kh" path="res://content/frames/mhi/mf_wyrm/mt_convective_heat_transfer/action_convective_heat_transfer.gd" id="1_earyt"]
+[ext_resource type="Resource" uid="uid://c0f1x7hj13c04" path="res://content/frames/mhi/mf_wyrm/mt_convective_heat_transfer/movementtype_convective_heat_transfer.tres" id="1_o46em"]
+[ext_resource type="Texture2D" uid="uid://4b2l8n3b5m3i" path="res://assets/icons/modded/mhi/cp_radiative_cooling.png" id="2_hjb70"]
+
+[resource]
+script = ExtResource("1_earyt")
+cht_movement_type = ExtResource("1_o46em")
+triggers_on = Array[int]([13])
+consumes_rxn = false
+icon_override = ExtResource("2_hjb70")
+flavor_override = 2
+metadata/_custom_type_script = "uid://dlf85tq8t67ql"

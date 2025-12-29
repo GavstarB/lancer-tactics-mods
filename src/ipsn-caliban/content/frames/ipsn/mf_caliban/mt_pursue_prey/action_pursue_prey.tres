@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://xdcolibr1bf3"]
+
+[ext_resource type="Resource" uid="uid://b7uurmlsja3ru" path="res://content/frames/ipsn/mf_caliban/mt_slam/buff_slam.tres" id="1_4rvvw"]
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_p8rn8"]
+[ext_resource type="Resource" uid="uid://bl66p0wdg3038" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/buff_pursue_prey.tres" id="3_4rvvw"]
+[ext_resource type="Script" uid="uid://b4x3raebnw8vu" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey.gd" id="3_7jyoe"]
+
+[resource]
+script = ExtResource("3_7jyoe")
+buff_slam = ExtResource("1_4rvvw")
+buffs = Array[ExtResource("1_p8rn8")]([ExtResource("3_4rvvw")])
+statuses_until = 0
+triggers_on = Array[int]([14])
+trigger_timing = 0
+consumes_rxn = false
+flavor_override = 2
+metadata/_custom_type_script = "uid://cq0fuxx7pf0su"

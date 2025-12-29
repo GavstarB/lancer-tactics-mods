@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=9 format=3 uid="uid://c42ci65ab860h"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_kbdb0"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_8s3h6"]
+[ext_resource type="Texture2D" uid="uid://ct2tvmabotakj" path="res://assets/icons/modded/ipsn-caliban/mt_wrecking_ball.png" id="2_xkp3b"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_ng6kd"]
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="3_um0yn"]
+[ext_resource type="Resource" uid="uid://d15qyh6pwmvol" path="res://content/frames/ipsn/mf_caliban/mt_wrecking_ball/buff_wrecking_ball.tres" id="4_xkp3b"]
+[ext_resource type="Script" uid="uid://dy4kg537rc55e" path="res://engine/character/gear_passive/passive_buff_applicator.gd" id="5_4fu16"]
+
+[sub_resource type="Resource" id="Resource_2fqsa"]
+script = ExtResource("5_4fu16")
+applied_buffs = Array[ExtResource("3_um0yn")]([ExtResource("4_xkp3b")])
+metadata/_custom_type_script = "uid://dy4kg537rc55e"
+
+[resource]
+script = ExtResource("3_ng6kd")
+passives = Array[ExtResource("2_8s3h6")]([SubResource("Resource_2fqsa")])
+is_trait = true
+icon_override = ExtResource("2_xkp3b")
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

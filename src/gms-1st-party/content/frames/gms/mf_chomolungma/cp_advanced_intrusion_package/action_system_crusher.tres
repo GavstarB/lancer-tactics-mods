@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dp6kl7o5urkkq"]
+
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_d2pi2"]
+[ext_resource type="Texture2D" uid="uid://bvyyjg5mxfdb" path="res://assets/icons/modded/gms-1st-party/action_system_crusher.png" id="2_0wfka"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_3qncg"]
+[ext_resource type="Script" uid="uid://bqli7c07iwp70" path="res://content/frames/gms/mf_chomolungma/cp_advanced_intrusion_package/action_system_crusher.gd" id="3_d2pi2"]
+
+[resource]
+script = ExtResource("3_d2pi2")
+usage_group = &"bcl"
+icon_override = ExtResource("2_0wfka")
+metadata/_custom_type_script = "uid://bmkbhm13soupd"

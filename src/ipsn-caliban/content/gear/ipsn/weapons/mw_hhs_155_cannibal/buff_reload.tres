@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cby874ypv1hal"]
+
+[ext_resource type="Script" uid="uid://wsgfsrq37gd" path="res://content/gear/ipsn/weapons/mw_hhs_155_cannibal/buff_reload.gd" id="1_83fkw"]
+
+[resource]
+script = ExtResource("1_83fkw")
+hide_from_player = true
+triggers_on = Array[int]([27])
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

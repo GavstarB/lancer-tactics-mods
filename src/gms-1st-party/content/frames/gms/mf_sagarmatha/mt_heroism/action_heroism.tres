@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://burmsmdysqdml"]
+
+[ext_resource type="Script" uid="uid://c0g3v65qycy51" path="res://content/frames/gms/mf_sagarmatha/mt_heroism/action_heroism.gd" id="1_uvjxm"]
+
+[resource]
+script = ExtResource("1_uvjxm")
+triggers_on = Array[int]([19])
+consumes_rxn = false
+metadata/_custom_type_script = "uid://crqxmv8pxyk6g"

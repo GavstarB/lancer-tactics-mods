@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cwwyuot778bny"]
+
+[ext_resource type="Script" uid="uid://yylup0nx2pq5" path="res://content/frames/gms/mf_chomolungma/cp_advanced_intrusion_package/buff_wide_area_code_pulse.gd" id="1_7ntal"]
+
+[resource]
+script = ExtResource("1_7ntal")
+hide_from_player = true
+triggers_on = Array[int]([2])
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

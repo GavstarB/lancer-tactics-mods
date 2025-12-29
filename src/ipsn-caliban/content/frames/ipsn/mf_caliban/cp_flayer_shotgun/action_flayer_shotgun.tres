@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://fixq74p168ae"]
+
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_chfp5"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_edglw"]
+[ext_resource type="Resource" uid="uid://drh1mbfj1dwl5" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/buff_flayer_shotgun_autohit.tres" id="2_mhpi3"]
+[ext_resource type="Resource" uid="uid://ctqeuu2xqbj6o" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun_butt.tres" id="2_rxqk4"]
+[ext_resource type="Script" uid="uid://bp04d4qgq1wf6" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun.gd" id="4_edglw"]
+[ext_resource type="Texture2D" uid="uid://q1tylbgcrv4b" path="res://assets/icons/modded/ipsn-caliban/action_flayer_shotgun.png" id="4_rxqk4"]
+
+[resource]
+script = ExtResource("4_edglw")
+butt_attack = ExtResource("2_rxqk4")
+buff = ExtResource("2_mhpi3")
+damage_dice = "1d6+1"
+weapon_type = 0
+aim_range = 3
+threat = 3
+tags = Array[int]([5, 8])
+knockback = "2"
+attack_accuracy = "1"
+icon_override = ExtResource("4_rxqk4")
+metadata/_custom_type_script = "uid://vi3dfs5ql3lg"

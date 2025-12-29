@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="Frame" load_steps=15 format=3 uid="uid://dlovitgwh5h7i"]
+
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="1_bfqw5"]
+[ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="2_n427g"]
+[ext_resource type="Texture2D" uid="uid://bjxkgvs4cswe7" path="res://assets/units/pc/gms_everest.png" id="3_65640"]
+[ext_resource type="Texture2D" uid="uid://ctx3vwpna0wxl" path="res://assets/units/npc/npc_assault.png" id="4_jhfsw"]
+[ext_resource type="Texture2D" uid="uid://bboar8ui8io87" path="res://assets/units/npc/npc_bombard.png" id="4_ucq6b"]
+[ext_resource type="Texture2D" uid="uid://bfkngkuw3f5fc" path="res://assets/units/npc/npc_demolisher.png" id="5_jhfsw"]
+[ext_resource type="Texture2D" uid="uid://cbv30wlbkro8k" path="res://assets/units/npc/npc_sentinel.png" id="6_eydg3"]
+[ext_resource type="Script" uid="uid://bxpc46igtsmvw" path="res://engine/character/unit/statblock.gd" id="7_n5dpf"]
+[ext_resource type="Resource" uid="uid://cq472f3pq1pjw" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/cp_rallying_cry.tres" id="8_0bu6i"]
+[ext_resource type="Texture2D" uid="uid://cvrgoscokoreg" path="res://assets/units/pc/ipsn_drake.png" id="8_jhfsw"]
+[ext_resource type="Resource" uid="uid://cnx62bb0ihjrr" path="res://content/frames/shared/mt_guardian/mt_guardian.tres" id="9_ko1dw"]
+[ext_resource type="Resource" uid="uid://crw27s51exw4h" path="res://content/frames/gms/mf_sagarmatha/mt_heroism/mt_heroism.tres" id="10_ebcp5"]
+[ext_resource type="Resource" uid="uid://ccriqun3t2j3" path="res://content/frames/gms/mf_standard_pattern_i_everest/mt_replaceable_parts.tres" id="11_e5eii"]
+
+[sub_resource type="Resource" id="Resource_paww6"]
+script = ExtResource("7_n5dpf")
+size = 2
+structure = 4
+stress = 4
+health = 8
+armor = 1
+evasion = 8
+edef = 8
+speed = 4
+heat = 6
+save_target = 10
+sensor_range = 10
+repairs = 4
+systems_points = 6
+reactions = 1
+activations = 1
+metadata/_custom_type_script = "uid://bxpc46igtsmvw"
+
+[resource]
+script = ExtResource("2_n427g")
+sprites = Array[Texture2D]([ExtResource("3_65640"), ExtResource("4_jhfsw"), ExtResource("4_ucq6b"), ExtResource("5_jhfsw"), ExtResource("6_eydg3"), ExtResource("8_jhfsw")])
+traits = Array[ExtResource("1_bfqw5")]([ExtResource("8_0bu6i"), ExtResource("9_ko1dw"), ExtResource("10_ebcp5"), ExtResource("11_e5eii")])
+mount_types = Array[int]([4, 0, 1])
+stat = SubResource("Resource_paww6")
+role_primary = 2
+metadata/_custom_type_script = "uid://daycu0mqh1rbq"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=6 format=3 uid="uid://crw27s51exw4h"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_mddde"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_5iqri"]
+[ext_resource type="Resource" uid="uid://burmsmdysqdml" path="res://content/frames/gms/mf_sagarmatha/mt_heroism/action_heroism.tres" id="2_vnu4w"]
+[ext_resource type="Texture2D" uid="uid://cn80xqt0y115a" path="res://assets/icons/modded/gms-1st-party/mt_heroism.png" id="3_dibp3"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_vnu4w"]
+
+[resource]
+script = ExtResource("3_vnu4w")
+actions = Array[ExtResource("1_mddde")]([ExtResource("2_vnu4w")])
+is_trait = true
+uses_per_scene = 1
+icon_override = ExtResource("3_dibp3")
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

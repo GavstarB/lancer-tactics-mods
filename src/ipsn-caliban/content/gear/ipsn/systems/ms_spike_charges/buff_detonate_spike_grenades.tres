@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=4 format=3 uid="uid://75cb8e2gkacm"]
+
+[ext_resource type="Script" uid="uid://64vtgpj1aiou" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_detonate_spike_grenades.gd" id="1_0ujom"]
+[ext_resource type="Resource" uid="uid://ctodbbo7g6vwr" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_spike_grenade.tres" id="1_or4jj"]
+[ext_resource type="Texture2D" uid="uid://pb5jtn4amrw7" path="res://assets/icons/modded/ipsn-caliban/action_spike_grenade.png" id="2_sjutq"]
+
+[resource]
+script = ExtResource("1_0ujom")
+buff = ExtResource("1_or4jj")
+clear_id = "buff_detonate_spike_grenades2"
+triggers_on = Array[int]([10])
+icon = ExtResource("2_sjutq")
+localization_key_override = "buff_detonate_spike_grenades"
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

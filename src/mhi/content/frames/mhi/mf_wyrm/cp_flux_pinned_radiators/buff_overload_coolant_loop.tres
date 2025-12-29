@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3 uid="uid://b8kupeuclyyqh"]
+
+[ext_resource type="Texture2D" uid="uid://b4nqua76jxixo" path="res://assets/icons/modded/mhi/cp_overload_coolant_loop.png" id="1_5cpxw"]
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_aonkx"]
+
+[resource]
+script = ExtResource("1_aonkx")
+can_only_be_applied_to_one_target_at_a_time = true
+icon = ExtResource("1_5cpxw")
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

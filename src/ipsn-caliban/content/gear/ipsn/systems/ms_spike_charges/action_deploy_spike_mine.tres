@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ActionSystemDeploy" load_steps=7 format=3 uid="uid://bdi17weep5v17"]
+
+[ext_resource type="Script" uid="uid://2wdyuf507vdl" path="res://engine/character/gear_action/archtypes/action_system_deploy.gd" id="1_2t7a1"]
+[ext_resource type="Resource" uid="uid://m28mp6fct83w" path="res://content/gear/ipsn/systems/ms_spike_charges/deployable/dep_spike_mine.tres" id="1_3sas1"]
+[ext_resource type="Texture2D" uid="uid://o2ps6dj7va12" path="res://assets/icons/modded/ipsn-caliban/action_spike_mine.png" id="2_ht2rt"]
+[ext_resource type="Texture2D" uid="uid://m7th0lci63tc" path="res://assets/units/deployable/mine.png" id="4_py3wi"]
+[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_80qgd"]
+
+[sub_resource type="Resource" id="Resource_wh1fg"]
+script = ExtResource("5_80qgd")
+preview_sprite = ExtResource("4_py3wi")
+can_target_empty_tiles = true
+can_target_units = false
+requires_free_space = true
+metadata/_custom_type_script = "uid://df1yicp7kbf3x"
+
+[resource]
+script = ExtResource("1_2t7a1")
+deployable_frame = ExtResource("1_3sas1")
+deploy_range = 1
+action_type = 1
+target_requirements_override = SubResource("Resource_wh1fg")
+usage_group = &"spike_charges"
+icon_override = ExtResource("2_ht2rt")
+metadata/_custom_type_script = "uid://2wdyuf507vdl"

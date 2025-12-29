@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bl66p0wdg3038"]
+
+[ext_resource type="Script" uid="uid://nwqu3yrenosc" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/buff_pursue_prey.gd" id="1_2rjvl"]
+[ext_resource type="Resource" uid="uid://off0i7rhhy4r" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/movementtype_persue_prey.tres" id="1_muks1"]
+
+[resource]
+script = ExtResource("1_2rjvl")
+movement_pursue_prey = ExtResource("1_muks1")
+hide_from_player = true
+triggers_on = Array[int]([15])
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

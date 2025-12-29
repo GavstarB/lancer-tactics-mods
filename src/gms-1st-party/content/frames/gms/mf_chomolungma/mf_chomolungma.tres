@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="Frame" load_steps=21 format=3 uid="uid://b32quajujd63b"]
+
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="1_kdudp"]
+[ext_resource type="Texture2D" uid="uid://b4k7b6lduqyff" path="res://assets/palettes/palette_medium_sapphire.png" id="1_n02yr"]
+[ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="2_cbpu2"]
+[ext_resource type="Texture2D" uid="uid://mi8biju6iijl" path="res://assets/palettes/palette_onyx.png" id="2_ojcu4"]
+[ext_resource type="Texture2D" uid="uid://drddkg0ge227b" path="res://assets/units/pc/gms_chomolungma.png" id="3_2m66o"]
+[ext_resource type="Texture2D" uid="uid://cqkjn0ov5syxb" path="res://assets/palettes/palette_light_yellow.png" id="3_bhos0"]
+[ext_resource type="Texture2D" uid="uid://bjxkgvs4cswe7" path="res://assets/units/pc/gms_everest.png" id="4_jgjao"]
+[ext_resource type="Script" uid="uid://dch85ypcupfgo" path="res://engine/character/unit_core/color_scheme.gd" id="4_u47wj"]
+[ext_resource type="Texture2D" uid="uid://cvxsm30vtivbd" path="res://assets/units/npc/npc_archer.png" id="5_2ilnt"]
+[ext_resource type="Texture2D" uid="uid://coojl22so6l10" path="res://assets/units/npc/npc_mirage.png" id="6_7ws23"]
+[ext_resource type="Texture2D" uid="uid://de858qkj6liy8" path="res://assets/units/npc/npc_priest.png" id="7_7ah4x"]
+[ext_resource type="Texture2D" uid="uid://srgk8h0s40am" path="res://assets/units/npc/npc_witch.png" id="8_mhlhw"]
+[ext_resource type="Script" uid="uid://bxpc46igtsmvw" path="res://engine/character/unit/statblock.gd" id="9_2ilnt"]
+[ext_resource type="Resource" uid="uid://ccriqun3t2j3" path="res://content/frames/gms/mf_standard_pattern_i_everest/mt_replaceable_parts.tres" id="10_7ws23"]
+[ext_resource type="Texture2D" uid="uid://bt8yiym36fphi" path="res://assets/units/npc/npc_berserker.png" id="10_y81io"]
+[ext_resource type="Resource" uid="uid://b4l21wtyx2kxg" path="res://content/frames/gms/mf_chomolungma/cp_advanced_intrusion_package/cp_advanced_intrusion_package.tres" id="14_u47wj"]
+[ext_resource type="Resource" uid="uid://dfv0f75qfo2v2" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/mt_brilliance.tres" id="15_y81io"]
+[ext_resource type="Resource" uid="uid://dricsmb4au65v" path="res://content/frames/gms/mf_chomolungma/mt_data_siphon/mt_data_siphon.tres" id="16_mpg54"]
+
+[sub_resource type="Resource" id="Resource_y81io"]
+script = ExtResource("4_u47wj")
+palette_0 = ExtResource("1_n02yr")
+palette_1 = ExtResource("2_ojcu4")
+palette_2 = ExtResource("3_bhos0")
+metadata/_custom_type_script = "uid://dch85ypcupfgo"
+
+[sub_resource type="Resource" id="Resource_7ah4x"]
+script = ExtResource("9_2ilnt")
+size = 1
+structure = 4
+stress = 4
+health = 10
+evasion = 8
+edef = 10
+speed = 4
+heat = 6
+save_target = 11
+sensor_range = 15
+tech_attack = 1
+repairs = 4
+systems_points = 7
+reactions = 1
+activations = 1
+metadata/_custom_type_script = "uid://bxpc46igtsmvw"
+
+[resource]
+script = ExtResource("2_cbpu2")
+default_color_scheme = SubResource("Resource_y81io")
+sprites = Array[Texture2D]([ExtResource("3_2m66o"), ExtResource("4_jgjao"), ExtResource("5_2ilnt"), ExtResource("10_y81io"), ExtResource("6_7ws23"), ExtResource("7_7ah4x"), ExtResource("8_mhlhw")])
+traits = Array[ExtResource("1_kdudp")]([ExtResource("14_u47wj"), ExtResource("15_y81io"), ExtResource("16_mpg54"), ExtResource("10_7ws23")])
+mount_types = Array[int]([3, 1])
+stat = SubResource("Resource_7ah4x")
+role_primary = 3
+role_secondary = 5
+metadata/_custom_type_script = "uid://daycu0mqh1rbq"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="BuffResistDamage" load_steps=3 format=3 uid="uid://dv56k7er6u3c5"]
+
+[ext_resource type="Texture2D" uid="uid://baea8fksvxar7" path="res://assets/icons/modded/gms-1st-party/action_rallying_cry.png" id="1_v5rb0"]
+[ext_resource type="Script" uid="uid://bym265b7dnjvc" path="res://engine/character/buff/archtypes/buff_resist_damage.gd" id="2_v5rb0"]
+
+[resource]
+script = ExtResource("2_v5rb0")
+damage_types = Array[int]([3])
+resist_everything = true
+resist_self_inflicted = true
+to = 7
+icon = ExtResource("1_v5rb0")
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3 uid="uid://djhmkl2yftwu7"]
+
+[ext_resource type="Texture2D" uid="uid://cusr3w3elxmyu" path="res://assets/icons/modded/mhi/buff_sudden_anger.png" id="1_fftyp"]
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_p43vo"]
+
+[resource]
+script = ExtResource("1_p43vo")
+icon = ExtResource("1_fftyp")
+localization_key_override = "ms_compulsion_induction_suite.action_sudden_anger"
+metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

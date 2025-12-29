@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=9 format=3 uid="uid://cpslks0ipcdk3"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_xnd2b"]
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="2_h6g60"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_pa770"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_1btlu"]
+[ext_resource type="Texture2D" uid="uid://bcworp2txmjer" path="res://assets/icons/modded/gms-1st-party/mw_tempest_charged_blade.png" id="3_h6g60"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="4_dmv07"]
+[ext_resource type="Script" uid="uid://vi3dfs5ql3lg" path="res://engine/character/gear_action/action_attack_weapon.gd" id="5_xxr17"]
+
+[sub_resource type="Resource" id="Resource_o25i6"]
+script = ExtResource("5_xxr17")
+damage_type = 1
+damage_dice = "3d6+4"
+weapon_size = 3
+weapon_type = 2
+aim_range = 0
+threat = 2
+tags = Array[int]([3])
+knockback = "2"
+icon_override = ExtResource("3_h6g60")
+metadata/_custom_type_script = "uid://vi3dfs5ql3lg"
+
+[resource]
+script = ExtResource("3_1btlu")
+actions = Array[ExtResource("1_xnd2b")]([SubResource("Resource_o25i6")])
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

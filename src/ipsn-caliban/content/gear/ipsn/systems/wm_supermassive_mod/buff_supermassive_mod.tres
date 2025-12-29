@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cmi34v1uqqv3y"]
+
+[ext_resource type="Script" uid="uid://b07y6upgfetae" path="res://content/gear/ipsn/systems/wm_supermassive_mod/buff_supermassive_mod.gd" id="1_me5qd"]
+
+[resource]
+script = ExtResource("1_me5qd")
+bonus_subtype = 1
+bonus_value = -1
+to = 1
+metadata/_custom_type_script = "uid://bav10yhc56w73"

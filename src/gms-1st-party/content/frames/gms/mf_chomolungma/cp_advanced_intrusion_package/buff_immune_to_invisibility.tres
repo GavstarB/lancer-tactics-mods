@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="BuffStatusImmunity" load_steps=2 format=3 uid="uid://ikocmit35n0e"]
+
+[ext_resource type="Script" uid="uid://cm107udeeibkt" path="res://engine/character/buff/archtypes/buff_status_immunity.gd" id="1_mll0j"]
+
+[resource]
+script = ExtResource("1_mll0j")
+immune_to_statuses = Array[int]([10])
+to = 6
+hide_from_player = true
+metadata/_custom_type_script = "uid://cm107udeeibkt"

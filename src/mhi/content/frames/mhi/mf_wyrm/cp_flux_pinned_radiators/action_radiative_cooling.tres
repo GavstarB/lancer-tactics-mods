@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cybwep3dyu3ck"]
+
+[ext_resource type="Texture2D" uid="uid://4b2l8n3b5m3i" path="res://assets/icons/modded/mhi/cp_radiative_cooling.png" id="1_igqri"]
+[ext_resource type="Script" uid="uid://dorco1nkdlrw8" path="res://content/frames/mhi/mf_wyrm/cp_flux_pinned_radiators/action_radiative_cooling.gd" id="1_oeryc"]
+
+[resource]
+script = ExtResource("1_oeryc")
+triggers_on = Array[int]([0])
+consumes_rxn = false
+icon_override = ExtResource("1_igqri")
+flavor_override = 2
+metadata/_custom_type_script = "uid://crqxmv8pxyk6g"

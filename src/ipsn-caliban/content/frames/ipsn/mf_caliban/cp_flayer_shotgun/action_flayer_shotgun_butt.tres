@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=4 format=3 uid="uid://ctqeuu2xqbj6o"]
+
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_604vs"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_jxtvg"]
+[ext_resource type="Script" uid="uid://cufpqjc3c25eq" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun_butt.gd" id="3_604vs"]
+
+[resource]
+script = ExtResource("3_604vs")
+damage_dice = "1"
+weapon_size = 0
+weapon_type = 0
+aim_range = 1
+threat = 0
+tags = Array[int]([8])
+knockback = "1"
+metadata/_custom_type_script = "uid://vi3dfs5ql3lg"

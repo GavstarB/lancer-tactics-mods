@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=9 format=3 uid="uid://dicn81dbxkh2b"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_ul5nf"]
+[ext_resource type="Resource" uid="uid://dm50js2u5r24j" path="res://content/gear/ipsn/systems/ms_spike_charges/action_spike_grenade.tres" id="2_2b1y5"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_n4jxj"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_2b1y5"]
+[ext_resource type="Resource" uid="uid://bdi17weep5v17" path="res://content/gear/ipsn/systems/ms_spike_charges/action_deploy_spike_mine.tres" id="3_8y56l"]
+[ext_resource type="Texture2D" uid="uid://pb5jtn4amrw7" path="res://assets/icons/modded/ipsn-caliban/action_spike_grenade.png" id="4_r7fhd"]
+[ext_resource type="Script" uid="uid://crqxmv8pxyk6g" path="res://engine/character/gear_action/action_reaction.gd" id="5_so5mf"]
+
+[sub_resource type="Resource" id="Resource_bavqf"]
+script = ExtResource("5_so5mf")
+icon_override = ExtResource("4_r7fhd")
+localization_key_override = "ms_spike_charges.action_detonate_spike_grenades"
+metadata/_custom_type_script = "uid://crqxmv8pxyk6g"
+
+[resource]
+script = ExtResource("3_2b1y5")
+actions = Array[ExtResource("1_ul5nf")]([ExtResource("2_2b1y5"), ExtResource("3_8y56l"), SubResource("Resource_bavqf")])
+sp_cost = 2
+system_tags = 1
+charges_max = 2
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

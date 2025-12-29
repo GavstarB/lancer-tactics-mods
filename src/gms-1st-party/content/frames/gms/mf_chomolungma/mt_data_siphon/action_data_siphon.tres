@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dtwdrqrrm6wit"]
+
+[ext_resource type="Script" uid="uid://daj5hn7bwfw2l" path="res://content/frames/gms/mf_chomolungma/mt_data_siphon/action_data_siphon.gd" id="1_u31li"]
+
+[resource]
+script = ExtResource("1_u31li")
+triggers_on = Array[int]([2])
+consumes_rxn = false
+metadata/_custom_type_script = "uid://crqxmv8pxyk6g"

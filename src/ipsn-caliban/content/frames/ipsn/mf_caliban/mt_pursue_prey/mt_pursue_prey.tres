@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3 uid="uid://csewpx2wspll2"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_w5ht4"]
+[ext_resource type="Resource" uid="uid://xdcolibr1bf3" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey.tres" id="2_akp8d"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_qahwj"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_akp8d"]
+[ext_resource type="Resource" uid="uid://chxr6drnnfcom" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey_clear.tres" id="3_sy7v8"]
+[ext_resource type="Texture2D" uid="uid://58g62kg7tbd1" path="res://assets/icons/modded/ipsn-caliban/mt_persue_prey.png" id="4_sy7v8"]
+
+[resource]
+script = ExtResource("3_akp8d")
+actions = Array[ExtResource("1_w5ht4")]([ExtResource("2_akp8d"), ExtResource("3_sy7v8")])
+is_trait = true
+icon_override = ExtResource("4_sy7v8")
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

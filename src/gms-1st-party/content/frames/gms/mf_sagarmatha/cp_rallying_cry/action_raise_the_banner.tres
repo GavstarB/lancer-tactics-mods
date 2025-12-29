@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://dc1h7v4lvkgye"]
+
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_rwbre"]
+[ext_resource type="Resource" uid="uid://blrlwb7i2vlcn" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner.tres" id="2_ra1kx"]
+[ext_resource type="Resource" uid="uid://dv56k7er6u3c5" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner_target.tres" id="3_ra1kx"]
+[ext_resource type="Resource" uid="uid://bxrowyagfivnr" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner_saves.tres" id="4_bjmfq"]
+[ext_resource type="Texture2D" uid="uid://baea8fksvxar7" path="res://assets/icons/modded/gms-1st-party/action_rallying_cry.png" id="5_35b1y"]
+[ext_resource type="Script" uid="uid://lk2f45ku5gwo" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/action_raise_the_banner.gd" id="5_bjmfq"]
+
+[resource]
+script = ExtResource("5_bjmfq")
+buff = ExtResource("3_ra1kx")
+buff2 = ExtResource("4_bjmfq")
+buffs = Array[ExtResource("1_rwbre")]([ExtResource("2_ra1kx")])
+apply_only_to_self = true
+action_type = 1
+consumes_cp = true
+icon_override = ExtResource("5_35b1y")
+metadata/_custom_type_script = "uid://cvvlk0g0af1lk"

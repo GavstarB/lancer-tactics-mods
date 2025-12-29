@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ologgadyykvw"]
+
+[ext_resource type="Texture2D" uid="uid://bg1a5lij2mrfl" path="res://assets/icons/hex_half.svg" id="1_v6gcq"]
+[ext_resource type="Script" uid="uid://bfy0xoue5rmcp" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/action_brilliance.gd" id="2_8i8se"]
+
+[resource]
+script = ExtResource("2_8i8se")
+action_type = 3
+icon_override = ExtResource("1_v6gcq")
+metadata/_custom_type_script = "uid://b8unc74nyhjr0"
