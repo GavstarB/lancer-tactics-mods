@@ -5,7 +5,7 @@
     "resource_groups": {
         "res://engine/resource_groups/resgrp_buffs.tres": [
             "res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/buff_flayer_shotgun_autohit.tres",
-            "res://content/frames/ipsn/mf_caliban/mt_pursue_prey/buff_persue_prey.tres",
+            "res://content/frames/ipsn/mf_caliban/mt_pursue_prey/buff_pursue_prey.tres",
             "res://content/frames/ipsn/mf_caliban/mt_slam/buff_slam.tres",
             "res://content/frames/ipsn/mf_caliban/mt_wrecking_ball/buff_wrecking_ball.tres",
             "res://content/gear/ipsn/systems/ms_hardpoint_reinforcement/buff_hardpoint_reinforcement.tres",
