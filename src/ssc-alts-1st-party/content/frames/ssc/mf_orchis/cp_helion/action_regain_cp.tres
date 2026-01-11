@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://co1tcrhfhaonc"]
+
+[ext_resource type="Script" uid="uid://dhjv7jqsnuxeh" path="res://content/frames/ssc/mf_orchis/cp_helion/action_regain_cp.gd" id="1_ufr5w"]
+
+[resource]
+script = ExtResource("1_ufr5w")
+triggers_on = Array[int]([12])
+consumes_rxn = false
+metadata/_custom_type_script = "uid://dlf85tq8t67ql"

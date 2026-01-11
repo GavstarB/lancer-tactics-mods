@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Frame" load_steps=7 format=3 uid="uid://8ynk7e07inin"]
+
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="1_ynspw"]
+[ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="2_aeq0a"]
+[ext_resource type="Texture2D" uid="uid://che1iapn1u0c1" path="res://assets/units/deployable/blank.png" id="3_g7mva"]
+[ext_resource type="Script" uid="uid://bxpc46igtsmvw" path="res://engine/character/unit/statblock.gd" id="4_bg3im"]
+[ext_resource type="Resource" uid="uid://dx4i1hosqj78s" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/deployable/mt_gi_soft_cover.tres" id="5_l01wb"]
+
+[sub_resource type="Resource" id="Resource_se55x"]
+script = ExtResource("4_bg3im")
+size = 1
+is_size_half = true
+metadata/_custom_type_script = "uid://bxpc46igtsmvw"
+
+[resource]
+script = ExtResource("2_aeq0a")
+sprites = Array[Texture2D]([ExtResource("3_g7mva")])
+traits = Array[ExtResource("1_ynspw")]([ExtResource("5_l01wb")])
+stat = SubResource("Resource_se55x")
+is_obstruction = false
+is_prop = true
+metadata/_custom_type_script = "uid://daycu0mqh1rbq"

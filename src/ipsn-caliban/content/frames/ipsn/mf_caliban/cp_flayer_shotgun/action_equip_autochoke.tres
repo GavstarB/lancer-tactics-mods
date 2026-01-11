@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=4 format=3 uid="uid://bhs462hufem18"]
 
 [ext_resource type="PackedScene" uid="uid://bfq34dqe4ydxy" path="res://content/fx_groups/actions/fxg_super_activation.tscn" id="1_hmgbu"]
-[ext_resource type="Texture2D" uid="uid://c20loj8c46ff2" path="res://assets/icons/modded/ipsn-caliban/action_flayer_shotgun_autochoke.png" id="2_hmgbu"]
+[ext_resource type="Texture2D" uid="uid://cjcl1c55ixhu7" path="res://assets/icons/modded/ipsn-caliban/action_flayer_shotgun_autochoke.png" id="2_hmgbu"]
 [ext_resource type="Script" uid="uid://ll26qafq5840" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_equip_autochoke.gd" id="2_qb5kc"]
 
 [resource]

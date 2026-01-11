@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Frame" load_steps=21 format=3 uid="uid://b32quajujd63b"]
+[gd_resource type="Resource" script_class="Frame" load_steps=24 format=3 uid="uid://b32quajujd63b"]
 
 [ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="1_kdudp"]
 [ext_resource type="Texture2D" uid="uid://b4k7b6lduqyff" path="res://assets/palettes/palette_medium_sapphire.png" id="1_n02yr"]
@@ -15,8 +15,11 @@
 [ext_resource type="Script" uid="uid://bxpc46igtsmvw" path="res://engine/character/unit/statblock.gd" id="9_2ilnt"]
 [ext_resource type="Resource" uid="uid://ccriqun3t2j3" path="res://content/frames/gms/mf_standard_pattern_i_everest/mt_replaceable_parts.tres" id="10_7ws23"]
 [ext_resource type="Texture2D" uid="uid://bt8yiym36fphi" path="res://assets/units/npc/npc_berserker.png" id="10_y81io"]
+[ext_resource type="Texture2D" uid="uid://bxi1v4vvs01mj" path="res://assets/units/npc/npc_hive.png" id="11_do2wf"]
+[ext_resource type="Texture2D" uid="uid://b3w0kq3w4ihdf" path="res://assets/units/npc/npc_hornet.png" id="12_wrdho"]
 [ext_resource type="Resource" uid="uid://b4l21wtyx2kxg" path="res://content/frames/gms/mf_chomolungma/cp_advanced_intrusion_package/cp_advanced_intrusion_package.tres" id="14_u47wj"]
 [ext_resource type="Resource" uid="uid://dfv0f75qfo2v2" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/mt_brilliance.tres" id="15_y81io"]
+[ext_resource type="Texture2D" uid="uid://dwxpmmc7t2deu" path="res://assets/units/custom/custom_cambiare.png" id="16_36irx"]
 [ext_resource type="Resource" uid="uid://dricsmb4au65v" path="res://content/frames/gms/mf_chomolungma/mt_data_siphon/mt_data_siphon.tres" id="16_mpg54"]
 
 [sub_resource type="Resource" id="Resource_y81io"]
@@ -48,7 +51,7 @@ metadata/_custom_type_script = "uid://bxpc46igtsmvw"
 [resource]
 script = ExtResource("2_cbpu2")
 default_color_scheme = SubResource("Resource_y81io")
-sprites = Array[Texture2D]([ExtResource("3_2m66o"), ExtResource("4_jgjao"), ExtResource("5_2ilnt"), ExtResource("10_y81io"), ExtResource("6_7ws23"), ExtResource("7_7ah4x"), ExtResource("8_mhlhw")])
+sprites = Array[Texture2D]([ExtResource("3_2m66o"), ExtResource("4_jgjao"), ExtResource("5_2ilnt"), ExtResource("10_y81io"), ExtResource("11_do2wf"), ExtResource("12_wrdho"), ExtResource("6_7ws23"), ExtResource("7_7ah4x"), ExtResource("8_mhlhw"), ExtResource("16_36irx")])
 traits = Array[ExtResource("1_kdudp")]([ExtResource("14_u47wj"), ExtResource("15_y81io"), ExtResource("16_mpg54"), ExtResource("10_7ws23")])
 mount_types = Array[int]([3, 1])
 stat = SubResource("Resource_7ah4x")

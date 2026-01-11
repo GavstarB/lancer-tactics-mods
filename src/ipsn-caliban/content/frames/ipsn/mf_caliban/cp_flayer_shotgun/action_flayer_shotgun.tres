@@ -5,7 +5,7 @@
 [ext_resource type="Resource" uid="uid://drh1mbfj1dwl5" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/buff_flayer_shotgun_autohit.tres" id="2_mhpi3"]
 [ext_resource type="Resource" uid="uid://ctqeuu2xqbj6o" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun_butt.tres" id="2_rxqk4"]
 [ext_resource type="Script" uid="uid://bp04d4qgq1wf6" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun.gd" id="4_edglw"]
-[ext_resource type="Texture2D" uid="uid://q1tylbgcrv4b" path="res://assets/icons/modded/ipsn-caliban/action_flayer_shotgun.png" id="4_rxqk4"]
+[ext_resource type="Texture2D" uid="uid://3wkpkgfv6xlv" path="res://assets/icons/modded/ipsn-caliban/mw_flayer_shotgun.png" id="4_rxqk4"]
 
 [resource]
 script = ExtResource("4_edglw")
