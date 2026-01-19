@@ -13,5 +13,4 @@ apply_only_to_self = true
 action_type = 1
 usage_group = &"mw_dagorath_lance2"
 icon_override = ExtResource("4_rd8lu")
-flavor_override = 4
 metadata/_custom_type_script = "uid://cm50wdj5g8syg"

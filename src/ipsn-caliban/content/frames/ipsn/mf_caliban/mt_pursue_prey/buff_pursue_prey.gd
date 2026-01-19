@@ -5,7 +5,11 @@ extends Buff
 
 func triggers_on_event(core: BuffCore, unit: Unit, triggering_event: EventCore) -> bool:
     if(triggering_event.context.unit == unit): return false
+    if not Unit.is_valid(triggering_event.context.unit): return false
     #if not triggering_event.context.unit.is_character(): return false
+    
+    
+    
     #print(triggering_event.context.unit.core.persistent_id)
     #print(attacked_unit_ids)
     var is_attacked_unit = false
@@ -65,12 +69,25 @@ func activate(core: BuffCore, activation: EventCore) -> void:
             steps2.append(step)
         
         if(len(arr2) > 0):
+            var specific: = SpecificAction.from_id(unit, &"mt_pursue_prey")
             CommonActionUtil.camera_bus.show_all_tiles([unit.state.tile, attacked_unit.state.tile])
             
-            effect_bus.show_range(arr2, Rangemesh.TYPE.MOVE, ShrinkwrapStyle.MOVE) #v0.5.0+
+            #effect_bus.show_range(arr2, Rangemesh.TYPE.MOVE, ShrinkwrapStyle.MOVE) #v0.5.0+
             #effect_bus.show_range.emit(arr2, Rangemesh.TYPE.MOVE, ShrinkwrapStyle.MOVE) #v0.4.7
             
-            if not await CommonActionUtil.confirm_use_alt(SpecificAction.from_id(unit, &"mt_pursue_prey")): return
+            if(typeof(effect_bus.show_range) == TYPE_SIGNAL):
+                effect_bus.emit_signal(&"show_range", arr2, Rangemesh.TYPE.MOVE, ShrinkwrapStyle.MOVE) #v0.4.7
+            else:
+                effect_bus.call(&"show_range", arr2, Rangemesh.TYPE.MOVE, ShrinkwrapStyle.MOVE) #v0.5.0+
+            
+            #effect_bus.show_target_line(
+                #Tile.position_center(arr2[0], unit.map), 
+                #Tile.position_center(arr2[-1], unit.map), 
+                #specific.action.get_flavor(), 
+                #true
+            #)
+            
+            if not await CommonActionUtil.confirm_use_alt(specific): return
             
             activation.queue_event(&"event_unit_move", {
                 unit = unit, 

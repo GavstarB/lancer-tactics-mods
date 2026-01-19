@@ -48,7 +48,7 @@ func triggers_on_event(core: BuffCore, unit: Unit, triggering_event: EventCore) 
             var gear: = owner_unit.map.get_gear_by_id(triggering_context.string)
             if not GearCore.is_valid(gear): return false
             if not unit.core.loadout.get_all_gear().has(gear): return false
-            if Faction.is_ally(unit.get_faction(), triggering_unit.get_faction()): return false
+            if UnitRelation.are_allies(unit, triggering_unit): return false
 
     return true
 

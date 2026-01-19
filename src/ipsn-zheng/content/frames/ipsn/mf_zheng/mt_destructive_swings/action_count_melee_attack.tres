@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://m4np3wmcs812"]
+
+[ext_resource type="Script" uid="uid://dwukb1nth8dot" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_count_melee_attack.gd" id="1_ryo26"]
+
+[resource]
+script = ExtResource("1_ryo26")
+require_unit_to_be = 1
+require_defender_relation = 2
+require_target_to_survive = false
+weapon_types = Array[int]([2])
+allow_basic = true
+triggers_on = Array[int]([2])
+consumes_rxn = false
+metadata/_custom_type_script = "uid://x5g213w347ud"

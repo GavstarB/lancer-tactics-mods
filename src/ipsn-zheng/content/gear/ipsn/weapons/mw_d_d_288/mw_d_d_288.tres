@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=9 format=3 uid="uid://b8o5nbs43r1w5"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_3uxdf"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_6tlkq"]
+[ext_resource type="Resource" uid="uid://vcom4scs5gpi" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_uncharged.tres" id="2_uwgvl"]
+[ext_resource type="Resource" uid="uid://br5s6nd4ewh1i" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_charged.tres" id="3_7ak2c"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_uwgvl"]
+[ext_resource type="Resource" uid="uid://bhx0fyr80y0kc" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_charge_d_d_288.tres" id="4_3oetk"]
+[ext_resource type="Resource" uid="uid://ddquf4xg7fsfa" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288.tres" id="5_plcly"]
+[ext_resource type="Resource" uid="uid://c20bbybvoooq0" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288_on_status.tres" id="6_plcly"]
+
+[resource]
+script = ExtResource("3_uwgvl")
+actions = Array[ExtResource("1_3uxdf")]([ExtResource("2_uwgvl"), ExtResource("3_7ak2c"), ExtResource("4_3oetk"), ExtResource("5_plcly"), ExtResource("6_plcly")])
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

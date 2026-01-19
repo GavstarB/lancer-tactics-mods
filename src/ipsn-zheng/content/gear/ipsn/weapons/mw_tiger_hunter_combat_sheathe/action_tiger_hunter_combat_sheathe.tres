@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://d5c680ciumh6"]
+
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_wjjuh"]
+[ext_resource type="Texture2D" uid="uid://crwca8x503qil" path="res://assets/icons/modded/ipsn-zheng/tiger_hunter_combat_sheathe.png" id="2_3hrcp"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_a0jds"]
+[ext_resource type="Script" uid="uid://dsay0klhiovlv" path="res://content/gear/ipsn/weapons/mw_tiger_hunter_combat_sheathe/action_tiger_hunter_combat_sheathe.gd" id="3_a0jds"]
+[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_3hrcp"]
+
+[sub_resource type="Resource" id="Resource_kqoiw"]
+script = ExtResource("4_3hrcp")
+count = 2
+all_targets_required = false
+metadata/_custom_type_script = "uid://df1yicp7kbf3x"
+
+[resource]
+script = ExtResource("3_a0jds")
+damage_dice = "1d3+2"
+weapon_type = 2
+aim_range = 0
+target_requirements_override = SubResource("Resource_kqoiw")
+icon_override = ExtResource("2_3hrcp")
+metadata/_custom_type_script = "uid://vi3dfs5ql3lg"

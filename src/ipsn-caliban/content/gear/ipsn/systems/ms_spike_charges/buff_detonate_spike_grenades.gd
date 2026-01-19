@@ -12,7 +12,7 @@ func triggers_on_event(core: BuffCore, unit: Unit, triggering_event: EventCore) 
     
     if(unit.core.current.reactions <= 0): return false
     
-    print(compcon_id, " ", could_use_last_turn_end)
+    #print(compcon_id, " ", could_use_last_turn_end)
     
     var buff2_core: BuffCore = UnitCondition.get_buff(unit, clear_id)
     if(compcon_id == &"buff_detonate_spike_grenades2"):

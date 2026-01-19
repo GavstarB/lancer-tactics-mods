@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3 uid="uid://b7olsmv3rerfj"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_scncp"]
+[ext_resource type="Resource" uid="uid://d13bcbttmn573" path="res://content/gear/ipsn/systems/ms_total_strength_suite_ii/action_total_strength_suite_ii.tres" id="2_6ivy3"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_rt3j1"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_6ivy3"]
+
+[resource]
+script = ExtResource("3_6ivy3")
+actions = Array[ExtResource("1_scncp")]([ExtResource("2_6ivy3")])
+sp_cost = 2
+system_tags = 1
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

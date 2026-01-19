@@ -6,7 +6,7 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
     if(triggering_event.context.unit == unit): 
         return true
     if not Unit.is_valid(triggering_event.context.unit): return false
-    if not Faction.is_ally(triggering_event.context.unit.get_faction(), unit.get_faction()): return false
+    if not UnitRelation.are_allies(triggering_event.context.unit, unit): return false
     if UnitRelation.is_adjacent(triggering_event.context.unit, unit):
         if not UnitCondition.has_buff(triggering_event.context.unit, buff.compcon_id, gear.persistent_id):
             return true

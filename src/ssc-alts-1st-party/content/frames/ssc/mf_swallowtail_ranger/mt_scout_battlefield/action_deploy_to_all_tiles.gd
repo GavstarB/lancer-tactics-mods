@@ -12,3 +12,4 @@ func get_target_requirements(specific: SpecificAction) -> TargetRequirements:
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: return

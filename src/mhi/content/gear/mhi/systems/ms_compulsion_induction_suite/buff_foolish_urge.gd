@@ -15,6 +15,7 @@ func triggers_on_event(core: BuffCore, unit: Unit, triggering_event: EventCore) 
     if not context.action is ActionAttackWeapon: return false
     var action : ActionAttackWeapon = context.action
 
+    if not action.range_pattern: return false
     if not (action.range_pattern.pattern == Lancer.AOE_TYPE.LINE or action.range_pattern.pattern == Lancer.AOE_TYPE.CONE):
         return false
     
@@ -72,11 +73,11 @@ func activate(core: BuffCore, activation: EventCore) -> void :
 
     UnitCondition.clear_buff_id(activation, activation.context.unit, core.base.compcon_id)
     
-    #new_units.append_array(attack_summary.all_attacked_units)
-    #var new_attack_summary = DeclaredAttackSummary.create(new_units, tiles_cache, attack_summary.directly_attacked_tiles, attack_summary.source_voxels)
-    #
-    #activation.context.event.context.resource = new_attack_summary
-    #
+    new_units.append_array(attack_summary.all_attacked_units)
+    var new_attack_summary = DeclaredAttackSummary.create(new_units, tiles_cache, attack_summary.directly_attacked_tiles, attack_summary.source_voxels)
+    
+    activation.context.event.context.resource = new_attack_summary
+    
     #activation.queue_event(&"event_unit_attack_declared", {
         #unit = activation.context.event.context.unit, 
         #gear = activation.context.event.context.gear, 

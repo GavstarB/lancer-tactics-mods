@@ -15,6 +15,9 @@ func activate_detonation_effects(all_targets: Array[Unit], forcing_action: Speci
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: 
+        detonated = false
+        return
     
     if detonated:
         detonated = false

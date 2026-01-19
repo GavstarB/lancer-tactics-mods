@@ -13,7 +13,7 @@ func activate(context: Context, activation: EventCore) -> void:
     var units: Array[Unit] = []
     var unit_tiles: Array[Vector2i] = []
     for unit in UnitRelation.get_units_within(context.unit, context.unit.get_sensor_range(), false):
-        if unit.is_character() and Faction.is_ally(unit.get_faction(), context.unit.get_faction()):
+        if unit.is_character() and UnitRelation.are_allies(unit, context.unit):
             units.append(unit)
             unit_tiles.append(unit.state.tile)
     

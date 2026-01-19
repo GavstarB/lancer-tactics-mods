@@ -21,10 +21,12 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
         if not Unit.is_valid(triggering_event.context.unit): return false
         if not UnitRelation.is_adjacent(triggering_event.context.unit, unit): return false
         if(triggering_event.context.unit.state.tile == unit.state.tile): return false
-        if not Faction.is_ally(triggering_event.context.unit.get_faction(), unit.get_faction()): return false
+        if not UnitRelation.are_allies(triggering_event.context.unit, unit): return false
         var movement_type: MovementType = triggering_event.context.resource
         if movement_type:
             if movement_type.teleport: return false
+        if UnitCondition.is_immobilized(unit): return false
+        if UnitCondition.has_status(unit, Lancer.STATUS.SLOWED): return false
         #print(triggered)
         if triggered.has(unit):
             if triggered[unit]: return false

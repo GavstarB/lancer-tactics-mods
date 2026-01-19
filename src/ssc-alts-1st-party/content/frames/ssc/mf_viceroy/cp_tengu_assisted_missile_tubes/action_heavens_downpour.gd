@@ -25,8 +25,9 @@ func activate(context: Context, activation: EventCore) -> void :
         if activation.abort_without_unit(unit): return
 
 
-    var all_targets: Array[Unit] = context.map.get_enemy_units(unit, false)
-    Util.filter(all_targets, func(target: Unit) -> bool: return UnitRelation.distance_between(unit, target, true) <= 3 and target.is_character())
+    #var all_targets: Array[Unit] = context.map.get_enemy_units(unit, false)
+    #Util.filter(all_targets, func(target: Unit) -> bool: return UnitRelation.distance_between(unit, target, true) <= 3 and target.is_character())
+    var all_targets: Array[Unit] = UnitRelation.get_characters_within(unit, 3, false, func(target: Unit) -> bool: return UnitRelation.are_enemies(target, unit), unit)
 
     await run_system_fxgs(
         unit, all_targets, 

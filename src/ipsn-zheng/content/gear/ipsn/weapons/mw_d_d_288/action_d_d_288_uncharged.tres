@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://vcom4scs5gpi"]
+
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_jnjo4"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_1dmk5"]
+[ext_resource type="Texture2D" uid="uid://b3ufs76y8dfi5" path="res://assets/icons/modded/ipsn-zheng/d_d_288_uncharged.png" id="2_6yew8"]
+[ext_resource type="Script" uid="uid://0yug1ta23lwm" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_uncharged.gd" id="3_jnjo4"]
+
+[resource]
+script = ExtResource("3_jnjo4")
+damage_dice = "1d6"
+weapon_size = 3
+weapon_type = 2
+aim_range = 0
+tags = Array[int]([7])
+reliable_damage = "3"
+icon_override = ExtResource("2_6yew8")
+metadata/_custom_type_script = "uid://vi3dfs5ql3lg"

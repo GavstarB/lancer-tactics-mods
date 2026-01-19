@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dnnmlfn7oik2u"]
+
+[ext_resource type="Script" uid="uid://bqsdeql0e318f" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.gd" id="1_2q5sq"]
+[ext_resource type="Texture2D" uid="uid://beuy7mbtw8coj" path="res://assets/icons/modded/ipsn-zheng/d_d_288_charged.png" id="1_xcw78"]
+
+[resource]
+script = ExtResource("1_2q5sq")
+cover = 1
+to = 12
+applies_statuses = Array[int]([2])
+triggers_on = Array[int]([10])
+icon = ExtResource("1_xcw78")
+localization_key_override = "buff_d_d_288"
+metadata/_custom_type_script = "uid://d0l6p3u6jopti"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=9 format=3 uid="uid://cd2h0wp6bxvig"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_cqw32"]
+[ext_resource type="Resource" uid="uid://ctct5emn6hsuj" path="res://content/gear/ipsn/systems/wm_molten_wreathe/action_molten_wreathe.tres" id="2_8dyly"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_kclpk"]
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="3_h2nmf"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_u26j7"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="4_8dyly"]
+[ext_resource type="Script" uid="uid://ch8avblisp8j1" path="res://engine/character/gear_passive/passive_weapon_mod.gd" id="5_cbfni"]
+
+[sub_resource type="Resource" id="Resource_c58ce"]
+script = ExtResource("5_cbfni")
+allowed_sizes = Array[int]([0, 1, 2, 3])
+allowed_types = Array[int]([2])
+metadata/_custom_type_script = "uid://ch8avblisp8j1"
+
+[resource]
+script = ExtResource("3_u26j7")
+actions = Array[ExtResource("1_cqw32")]([ExtResource("2_8dyly")])
+passives = Array[ExtResource("2_kclpk")]([SubResource("Resource_c58ce")])
+sp_cost = 2
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

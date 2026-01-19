@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://ddquf4xg7fsfa"]
+
+[ext_resource type="Script" uid="uid://dtlc4vj6w5i8o" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288.gd" id="1_1kv73"]
+[ext_resource type="Resource" uid="uid://dnnmlfn7oik2u" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_2qfed"]
+[ext_resource type="PackedScene" uid="uid://bwrhujmasvxto" path="res://content/fx_groups/mech/fxg_flying_takeoff.tscn" id="1_feiww"]
+[ext_resource type="Texture2D" uid="uid://d3em01vhayop6" path="res://assets/icons/modded/ipsn-zheng/disperse_d_d_288.png" id="3_w200o"]
+
+[resource]
+script = ExtResource("1_1kv73")
+buff = ExtResource("1_2qfed")
+action_type = 3
+fxg_use = ExtResource("1_feiww")
+starts_hibernating = true
+usage_group = &"disperse_d_d_288"
+icon_override = ExtResource("3_w200o")
+emit_text_popcorn_on_use = true
+metadata/_custom_type_script = "uid://cvvlk0g0af1lk"

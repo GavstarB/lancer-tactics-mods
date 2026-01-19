@@ -45,35 +45,35 @@ func activate(context: Context, activation: EventCore) -> void:
         true
     )
     
-    var deployed_ids = chosen.gear.get_state_string_array(UnitAction.DEPLOYED_IDS_KEY)
-    if(len(deployed_ids) > 0):
-        var dep: Unit = chosen.unit.map.get_unit_by_id(deployed_ids[0])
-        var dep_tiles = []
-        if dep.core.frame.is_prop:
-            for dep_gear: GearCore in dep.core.loadout.get_all_gear():
-                for passive in dep_gear.kit.passives:
-                    if is_instance_of(passive, PassiveTerrainZone):
-                        passive = passive as PassiveTerrainZone
-                        if(passive.terrain_data != null):
-                            if(passive.terrain_data.cover == TerrainData.COVER.SOFT):
-                                for tile in passive.range_pattern.get_aoe_tiles([dep.state.tile] as Array[Vector2i], [dep.state.tile] as Array[Vector2i], dep.get_size(), dep.map.shape):
-                                    if not dep_tiles.has(tile):
-                                        dep_tiles.append(tile)
-        else:
-            dep_tiles.append_array(dep.occupied_tiles())
-        
-        if(chosen == possible_actions[0] or chosen == possible_actions[1]):
-            for tile in dep_tiles.duplicate():
-                for vec in [Vector2i(0, -1), Vector2i(-1, -1), Vector2i(-1, 0)]:
-                    if not dep_tiles.has(tile + vec):
-                        dep_tiles.append(tile + vec)                    
-        
-        for tile in dep_tiles:
-            for tile2 in Tile.get_all_within(tile, 4, chosen.unit.map):
-                if tiles.has(tile2):
-                    tiles.erase(tile2)
-    
     if(chosen != null):
+        var deployed_ids = chosen.gear.get_state_string_array(UnitAction.DEPLOYED_IDS_KEY)
+        if(len(deployed_ids) > 0):
+            var dep: Unit = chosen.unit.map.get_unit_by_id(deployed_ids[0])
+            var dep_tiles = []
+            if dep.core.frame.is_prop:
+                for dep_gear: GearCore in dep.core.loadout.get_all_gear():
+                    for passive in dep_gear.kit.passives:
+                        if is_instance_of(passive, PassiveTerrainZone):
+                            passive = passive as PassiveTerrainZone
+                            if(passive.terrain_data != null):
+                                if(passive.terrain_data.cover == TerrainData.COVER.SOFT):
+                                    for tile in passive.range_pattern.get_aoe_tiles([dep.state.tile] as Array[Vector2i], [dep.state.tile] as Array[Vector2i], dep.get_size(), dep.map.shape):
+                                        if not dep_tiles.has(tile):
+                                            dep_tiles.append(tile)
+            else:
+                dep_tiles.append_array(dep.occupied_tiles())
+            
+            if(chosen == possible_actions[0] or chosen == possible_actions[1]):
+                for tile in dep_tiles.duplicate():
+                    for vec in [Vector2i(0, -1), Vector2i(-1, -1), Vector2i(-1, 0)]:
+                        if not dep_tiles.has(tile + vec):
+                            dep_tiles.append(tile + vec)                    
+            
+            for tile in dep_tiles:
+                for tile2 in Tile.get_all_within(tile, 4, chosen.unit.map):
+                    if tiles.has(tile2):
+                        tiles.erase(tile2)
+    
         await activation.execute_event(&"event_gear_activate", {
             unit = chosen.unit, 
             gear = chosen.gear, 

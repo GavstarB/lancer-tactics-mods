@@ -26,7 +26,7 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
     if not UnitCondition.has_buff(unit, buff.compcon_id):
         if(unit != triggering_unit): return false
     else:
-        if not Faction.is_ally(unit.get_faction(), triggering_unit.get_faction()): return false
+        if not UnitRelation.are_allies(unit, triggering_unit): return false
         if(Tile.distance(unit.state.tile, triggering_unit.state.tile) > unit.get_sensor_range()):
             if UnitCondition.has_buff(triggering_unit, buff2.compcon_id, gear.persistent_id):
                 UnitCondition.clear_buff_id(triggering_event, triggering_unit, buff2.compcon_id, gear.persistent_id)
@@ -43,3 +43,4 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: return

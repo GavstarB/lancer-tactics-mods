@@ -4,6 +4,7 @@ extends ActionReactionApplyBuff
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: return
     
     var attack_summary: DeclaredAttackSummary = activation.context.event.context.resource
     #print("Added")

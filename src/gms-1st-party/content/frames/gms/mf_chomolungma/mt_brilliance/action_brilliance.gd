@@ -26,7 +26,7 @@ func activate(context: Context, activation: EventCore) -> void :
     var chosen: SpecificAction = await TargetActionUtil.choice_bus.choose_from_gear(
         possible_tech,
         tr("gear.mt_brilliance.choose"),
-        true
+        false
     )
     
     spend_actions(activation)
@@ -47,6 +47,7 @@ func activate(context: Context, activation: EventCore) -> void :
         tr("gear.mt_brilliance.choose"),
         true
     )
+    if(chosen == null): return
     
     await activation.execute_event(&"event_gear_activate", {
         unit = chosen.unit, 

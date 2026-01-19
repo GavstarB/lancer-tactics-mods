@@ -1,0 +1,85 @@
+{
+    "name": "IPS-N Zheng",
+    "author": "GavstarB",
+    "version": "1.0",
+    "resource_groups": {
+        "res://engine/resource_groups/resgrp_buffs.tres": [
+            "res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_iii/buff_total_strength_suite_iii.tres",
+            "res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres"
+        ],
+        "res://engine/resource_groups/resgrp_frames.tres": [
+            "res://content/frames/ipsn/mf_zheng/mf_zheng.tres"
+        ],
+        "res://engine/resource_groups/resgrp_kits.tres": [
+            "res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/cp_xiong_type_cqb_suite.tres",
+            "res://content/frames/ipsn/mf_zheng/mt_destructive_swings/mt_destructive_swings.tres",
+            "res://content/frames/ipsn/mf_zheng/mt_weak_computer_zheng.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_i/ms_total_strength_suite_i.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_ii/ms_total_strength_suite_ii.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_iii/ms_total_strength_suite_iii.tres",
+            "res://content/gear/ipsn/systems/wm_molten_wreathe/wm_molten_wreathe.tres",
+            "res://content/gear/ipsn/weapons/mw_d_d_288/mw_d_d_288.tres",
+            "res://content/gear/ipsn/weapons/mw_tiger_hunter_combat_sheathe/mw_tiger_hunter_combat_sheathe.tres"
+        ],
+        "res://engine/resource_groups/resgrp_licenses.tres": [
+            "res://content/licenses/ipsn/li_zheng.tres"
+        ],
+        "res://content/manufacturers/resgrp_man_ipsn.tres": [
+            "res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_iii/buff_total_strength_suite_iii.tres",
+            "res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres",
+            "res://content/frames/ipsn/mf_zheng/mf_zheng.tres",
+            "res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/cp_xiong_type_cqb_suite.tres",
+            "res://content/frames/ipsn/mf_zheng/mt_destructive_swings/mt_destructive_swings.tres",
+            "res://content/frames/ipsn/mf_zheng/mt_weak_computer_zheng.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_i/ms_total_strength_suite_i.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_ii/ms_total_strength_suite_ii.tres",
+            "res://content/gear/ipsn/systems/ms_total_strength_suite_iii/ms_total_strength_suite_iii.tres",
+            "res://content/gear/ipsn/systems/wm_molten_wreathe/wm_molten_wreathe.tres",
+            "res://content/gear/ipsn/weapons/mw_d_d_288/mw_d_d_288.tres",
+            "res://content/gear/ipsn/weapons/mw_tiger_hunter_combat_sheathe/mw_tiger_hunter_combat_sheathe.tres",
+            "res://content/licenses/ipsn/li_zheng.tres"
+        ]
+    },
+    "translate": {
+        "en": {
+            "frame.mf_zheng.name": "Zheng",
+            "frame.mf_zheng.flavor": "The Zheng is a new frame in IPS-N's line and is unusual in that its development can be attributed almost completely to a single mech pilot – Xiong Xiaoli, a Mirrorsmoke mercenary operating in the Long Rim, protecting heavy freight/low crew shipments to the early Dawnline Shore colonies. A relative unknown before the incident, MSMC documentation from the time indicates that her convoy was attacked by the White Tiger pirate conglomerate, and her entire company killed in action. Xiong's personal logbook, recovered posthumously, expounds on MSMC's report.\n\nIn her logbook, Xiong noted that her chassis, a factory-standard IPS-N Raleigh, was almost totally ripped apart in the chaos of the White Tiger's attack. Thrown free of her billeted freighter after it collided with a White Tiger crashboat, Xiong managed to survive the next 45 days by scavenging across the drifting, derelict wreck of the MSMC-S Say No More, the escort cruiser attached to the supply colony. Outnumbered and hunted by the White Tiger pirates prowling the ruined convoy, Xiong took dramatic steps to modify her Raleigh for close-quarters combat. In the dark, claustrophobic environments of the Say No More and ruined freighters leashed to it by the White Tigers, Xiong turned her chassis into a machine of tumbling death.\n\nXiong likely did not survive the long engagement. She is presumed to have perished mere days before an IPS-N Trunk Security patrol arrived, responding to the convoy's initial distress signal. Trunk Security found that Xiong had eliminated every White Tiger pirate assigned to the convoy; her chassis, logbook, and trace elements of her body were discovered in the White Tiger's cored-out gunboat and recovered by IPS-N. Thanks to her efforts, Trunk Security and MSMC were able to hunt down the remaining White Tiger gang and eliminate them. IPS-N and MSMC then engaged in a lengthy negotiation over the modified Raleigh's plans, eventually settling on a mixed licensing fee that benefits both IPS-N and MSMC. The resulting pattern, the Zheng, is now a popular choice among MSMC and Trunk Security pilots operating across the Rim.\n\nXiong Xiaoli is widely regarded as a bodhisattva across the Long Rim; MSMC mercenaries have created several drinking games named after her, and MSMC pilots on combat contracts often compete to hit the \"Xiong Limit\" of 45+ confirmed kills.",
+            "frame.mf_zheng.flavor.short": "Indomitable Brawler",
+            "gear.cp_xiong_type_cqb_suite.name": "Xiong-Type CQB Suite",
+            "gear.cp_xiong_type_cqb_suite.action_xiaolis_tenacity.name": "Xiaoli's Tenacity",
+            "gear.cp_xiong_type_cqb_suite.action_xiaolis_tenacity.effect": "1/turn as a |free action|, you may move up to 3 spaces then deal |2 kinetic| to any adjacent character or |10| |AP| |kinetic| to an object or piece of terrain. This movement prompts |engagement| and does not ignore |reactions|.\nIf this damage destroys an object or piece of terrain, it explodes, dealing |1d6 kinetic| to all adjacent characters other than you and knocking them back 1 space.",
+            "gear.cp_xiong_type_cqb_suite.action_xiaolis_ingenuity.name": "Xiaoli's Ingenuity",
+            "gear.cp_xiong_type_cqb_suite.action_xiaolis_ingenuity.effect": "For the rest of the scene, this system gains 6 charges. Expend a charge to use [b]Xiaoli's Tenacity[/b] again, ignoring the 1/turn limit. You may spend any number of charges a turn. At the end of each turn, you regain a charge for each unique target (character, object, or piece of terrain) you damaged with this action, to a maximum of 6.",
+            "gear.mt_destructive_swings.name": "Destructive Swings",
+            "gear.mt_destructive_swings.effect": "At the end of the Zheng’s turn, if it made at least one |melee attack| against a hostile character, the force of its swings creates a |size 1| piece of terrain that grants |hard cover| in a free, adjacent space. It has |10 HP| and |5 evasion|.",
+            "gear.mt_weak_computer_zheng.name": "Weak Computer",
+            "gear.mt_weak_computer_zheng.effect": "This mech receives |+1 difficulty| on |systems| |checks| and |saves|.",
+            "gear.mw_tiger_hunter_combat_sheathe.name": "Tiger-Hunter Combat Sheath",
+            "gear.mw_tiger_hunter_combat_sheathe.effect": "This weapon can attack two targets at a time, and can be used even while |jammed|.",
+            "gear.ms_total_strength_suite_i.name": "Total Strength Suite I",
+            "gear.ms_total_strength_suite_i.action_total_strength_suite_i.name": "Total Strength Suite I",
+            "gear.ms_total_strength_suite_i.action_total_strength_suite_i.effect": "You rip up a piece of the environment and hurl it at a character within |range 5| and line of sight. Your target must pass an |agility| |save| or take |1d6 kinetic| damage and be knocked back 1 space directly away from you. After you take this action, place a |size 1| piece of terrain that grants |hard cover| in a free space adjacent to your target, even if they passed the save. The terrain has |10 HP| and |5 evasion|.\nIf there is a |size 1| object or piece of cover adjacent to you, you can move it as part of this action; otherwise, your projectile is ripped out of the ground or environment. If there's nothing to grab nearby or you're not on the ground you can't take this action.",
+            "gear.wm_molten_wreathe.name": "Molten Wreath",
+            "gear.wm_molten_wreathe.effect": "Choose one |melee| weapon: 1/round, after you hit a character with this weapon, you take |1 heat| and it projects a superheated |cone 3| cloud oriented away from your target in a direction of your choice. Your target and any characters caught in this cloud each take |2 explosive| damage.",
+            "gear.ms_total_strength_suite_ii.name": "Total Strength Suite II",
+            "gear.ms_total_strength_suite_ii.action_total_strength_suite_ii.name": "Total Strength Suite II",
+            "gear.ms_total_strength_suite_ii.action_total_strength_suite_ii.effect": "Deal |1d6 kinetic| damage to a character you are grappling.",
+            "gear.mw_d_d_288.name": "D/D 288",
+            "gear.mw_d_d_288.action_d_d_288_uncharged.name": "D/D 288 (Uncharged)",
+            "gear.mw_d_d_288.action_d_d_288_uncharged.effect": "Unlike other |superheavy| weapons, this weapon can be used with the basic profile to |skirmish|.\nYou may charge this weapon as a |quick action|. While charged, you benefit from |soft cover|, but you are |slowed|, take |2 heat| at the start of your turn, and can no longer use the D/D 288 to |skirmish|. At the start of any of your turns while it is charged, it has the [b]D/D 288 (Charged)[/b] profile.",
+            "gear.mw_d_d_288.action_d_d_288_charged.name": "D/D 288 (Charged)",
+            "gear.mw_d_d_288.action_d_d_288_charged.on_hit": "While charged, this weapon deals |30| |AP| |kinetic| damage when it hits objects or pieces of terrain. If this destroys objects and pieces of terrain, they explode, dealing |1d6 kinetic| damage to all adjacent characters other than you and knocking them back 1 space.\nThis weapon loses its charge when you hit a target, when you disperse its charge as a |free action|, or when you become |stunned| or |shut down|.",
+            "gear.mw_d_d_288.action_charge_d_d_288.name": "Charge D/D 288",
+            "gear.mw_d_d_288.action_charge_d_d_288.effect": "Charge the D/D 288. At the start of any of your turns while the D/D 288 is charged, it uses the [b]D/D 288 (Charged)[/b] profile. You become |slowed|, and benefit from |soft cover|. Additionally, gain |2 heat| at the start of your turn.\nThe [b]D/D 288 (Charged)[/b] profile cannot be used to |skirmish|.",
+            "gear.mw_d_d_288.action_disperse_d_d_288.name": "Disperse D/D 288's Charge",
+            "gear.mw_d_d_288.action_disperse_d_d_288.effect": "The D/D 288 loses its charge and no longer uses the [b]D/D 288 (Charged)[/b] profile.",
+            "gear.buff_d_d_288.name": "D/D 288 (Charged)",
+            "gear.buff_d_d_288.effect": "At the start of any of your turns while the D/D 288 is charged, it uses the [b]D/D 288 (Charged)[/b] profile. You become |slowed|, and benefit from |soft cover|. Additionally, gain |2 heat| at the start of your turn.\nThe [b]D/D 288 (Charged)[/b] profile cannot be used to |skirmish|.",
+            "gear.ms_total_strength_suite_iii.name": "Total Strength Suite III",
+            "gear.ms_total_strength_suite_iii.action_total_strength_suite_iii.name": "Total Strength Suite III",
+            "gear.ms_total_strength_suite_iii.action_total_strength_suite_iii.effect": "You end a |grapple|, pushing the other character 5 spaces in any direction and knocking them |prone|. This movement may pass through spaces occupied by other characters but must end in a free space. All characters they pass through must pass a |hull| |save| or be knocked |prone|. If your target collides with an object or piece of terrain, they stop, take |1d6 kinetic| damage, and must pass a |hull| |save| or become |stunned| until the end of their next turn."
+        }
+    }
+}

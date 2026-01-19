@@ -17,27 +17,28 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
 
 func activate(context: Context, activation: EventCore) -> void :
     #var triggering_context: Context = context.event.context
-    #var specific: = SpecificAction.from_context(context)
+    var specific: = SpecificAction.from_context(context)
     
-    var tiles: Array[Vector2i] = []
-    for x in context.unit.map.size.x:
-        for y in context.unit.map.size.y:
-            var tile = Vector2i(x, y)
-            if(context.unit.map.shape.is_playable(tile)):
-                tiles.append(tile)
+    #var tiles: Array[Vector2i] = []
+    #for x in context.unit.map.size.x:
+        #for y in context.unit.map.size.y:
+            #var tile = Vector2i(x, y)
+            #if(context.unit.map.shape.is_playable(tile)):
+                #tiles.append(tile)
     
-    var targetable_tiles = UnitTile.get_tiles_that_can_see(context.unit.map, tiles, context.unit.get_sensor_range(), context.unit, true)
-    var allies: Array[Unit] = []
-    for ally: Unit in context.unit.get_allied_units(true):
-        if targetable_tiles.has(ally.state.tile) and ally.core.current.reactions > 0 and Tile.distance(ally.state.tile, context.unit.state.tile) <= context.unit.get_sensor_range():
-            allies.append(ally)
+    #var targetable_tiles = UnitTile.get_tiles_that_can_see(context.unit.map, tiles, context.unit.get_sensor_range(), context.unit, true)
+    #var allies: Array[Unit] = []
+    #for ally: Unit in context.unit.get_allied_units(true):
+        #if targetable_tiles.has(ally.state.tile) and ally.core.current.reactions > 0 and Tile.distance(ally.state.tile, context.unit.state.tile) <= context.unit.get_sensor_range():
+            #allies.append(ally)
+    var allies: Array[Unit] = UnitRelation.get_characters_within(context.unit, context.unit.get_sensor_range(), true, func(target: Unit) -> bool: return (target.core.current.reactions > 0) and UnitRelation.are_allies(target, context.unit))
     
-    var confirmed: = await CommonActionUtil.confirm_use(context, allies)
+    var confirmed: = await CommonActionUtil.confirm_use(context) #, allies
     if activation.abort_when( not confirmed): return
     spend_actions(activation)
     
     #choice_bus.show_using_action(specific)
-    var target_unit: Unit = await choice_bus.choose_unit(allies)
+    var target_unit: Unit = await choice_bus.choose_unit(allies, true, specific)
     
     if(target_unit != null):
         UnitAction.spend_reaction(target_unit)

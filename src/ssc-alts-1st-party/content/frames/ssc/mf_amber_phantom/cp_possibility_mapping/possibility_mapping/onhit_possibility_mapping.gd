@@ -7,7 +7,7 @@ extends OnHitEffect
 
 func on_hit(activation: EventCore, attacked_unit: Unit) -> void :
     var context: Context = activation.context
-    print(context.unit.core.frame.compcon_id, " ", context.target_unit.core.frame.compcon_id)
+    #print(context.unit.core.frame.compcon_id, " ", context.target_unit.core.frame.compcon_id)
     #var weapon_mod: GearCore = context.gear.get_weapon_mod(context.unit.core.loadout)
     var gear: GearCore = context.unit.core.loadout.get_by_compcon_id(&"cp_possibility_mapping")
     if not GearCore.is_valid(gear): return

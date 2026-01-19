@@ -3,7 +3,17 @@ extends Buff
 @export var attacked_unit_ids: Array[StringName] = []
 
 func triggers_on_event(core: BuffCore, unit: Unit, triggering_event: EventCore) -> bool:
-    print(attacked_unit_ids)
+    if not Unit.is_valid(triggering_event.context.unit): return false
+    
+    if not triggering_event.context.is_property_present(Context.PROP.event): return false
+    var move_event: EventCore = triggering_event.context.event
+    if(move_event.context.unit == unit): return false
+    if UnitRelation.are_allies(move_event.context.unit, unit): return false
+    if not move_event.context.is_property_present(Context.PROP.object): return false
+    var specific: SpecificAction = move_event.context.object
+    if(specific.unit != unit): return false
+    
+    #print(attacked_unit_ids)
     var is_attacked_unit = false
     for id in attacked_unit_ids:
         if(triggering_event.context.unit.core.persistent_id == id): 

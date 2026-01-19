@@ -12,7 +12,7 @@
 [ext_resource type="Resource" uid="uid://c42ci65ab860h" path="res://content/frames/ipsn/mf_caliban/mt_wrecking_ball/mt_wrecking_ball.tres" id="6_hkae4"]
 [ext_resource type="Resource" uid="uid://csewpx2wspll2" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/mt_pursue_prey.tres" id="7_kuwax"]
 [ext_resource type="Resource" uid="uid://y5yv2hfgl4a" path="res://content/frames/ipsn/mf_caliban/mt_slam/mt_slam.tres" id="8_y00f2"]
-[ext_resource type="Resource" uid="uid://n0x8r5hssxso" path="res://content/frames/ipsn/mf_caliban/mt_weak_computer.tres" id="9_my88d"]
+[ext_resource type="Resource" uid="uid://n0x8r5hssxso" path="res://content/frames/ipsn/mf_caliban/mt_weak_computer_caliban.tres" id="9_my88d"]
 
 [sub_resource type="Resource" id="Resource_gni4o"]
 script = ExtResource("2_my88d")

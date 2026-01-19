@@ -15,6 +15,7 @@ func can_apply_buff_to_unit(potential_target: Unit, specific: SpecificAction) ->
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: return
     
     var specific: = SpecificAction.from_context(context)
     for unit in context.unit.get_allied_units(false):

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://hb3fhmljdojm"]
+
+[ext_resource type="Resource" uid="uid://rm6pbg4qbkrg" path="res://content/frames/deployables/dep_debris_cover_ramp.tres" id="1_2wvb0"]
+[ext_resource type="PackedScene" uid="uid://cv5c2cgsyerly" path="res://content/fx_groups/mech/fxg_collide.tscn" id="2_p1pf1"]
+[ext_resource type="Script" uid="uid://cbys5x3l4q2no" path="res://content/gear/ipsn/systems/ms_total_strength_suite_i/action_total_strength_suite_i.gd" id="2_qobdl"]
+[ext_resource type="Texture2D" uid="uid://bh83fsjjj58s7" path="res://assets/icons/modded/ipsn-zheng/ms_total_strength_suite_i.png" id="3_p1pf1"]
+
+[resource]
+script = ExtResource("2_qobdl")
+debris_frame = ExtResource("1_2wvb0")
+target_range = 5
+action_type = 1
+clears_hidden = true
+fxg_use = ExtResource("2_p1pf1")
+icon_override = ExtResource("3_p1pf1")
+metadata/_custom_type_script = "uid://c6wq6p7arfrwe"

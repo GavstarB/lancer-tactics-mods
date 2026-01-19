@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3 uid="uid://d15qyh6pwmvol"]
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://d15qyh6pwmvol"]
 
 [ext_resource type="Texture2D" uid="uid://ct2tvmabotakj" path="res://assets/icons/modded/ipsn-caliban/mt_wrecking_ball.png" id="1_y50lr"]
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_yosde"]
+[ext_resource type="Script" uid="uid://cx4e36e62pb2x" path="res://content/frames/ipsn/mf_caliban/mt_wrecking_ball/buff_wrecking_ball.gd" id="2_y50lr"]
 
 [resource]
-script = ExtResource("1_yosde")
+script = ExtResource("2_y50lr")
 to = 35
 icon = ExtResource("1_y50lr")
 metadata/_custom_type_script = "uid://cqrqkdgcf8mti"

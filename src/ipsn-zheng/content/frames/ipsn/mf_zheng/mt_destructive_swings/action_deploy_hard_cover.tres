@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://bmaalfxv8k1ln"]
+
+[ext_resource type="Resource" uid="uid://rm6pbg4qbkrg" path="res://content/frames/deployables/dep_debris_cover_ramp.tres" id="1_17k3o"]
+[ext_resource type="Script" uid="uid://c28ytd0ibn3e5" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_deploy_hard_cover.gd" id="1_pgwgm"]
+[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="3_6m53v"]
+
+[sub_resource type="Resource" id="Resource_o3vla"]
+script = ExtResource("3_6m53v")
+can_target_empty_tiles = true
+can_target_units = false
+requires_free_space = true
+metadata/_custom_type_script = "uid://df1yicp7kbf3x"
+
+[resource]
+script = ExtResource("1_pgwgm")
+deployable_frame = ExtResource("1_17k3o")
+deploy_range = 1
+triggers_on = Array[int]([11])
+trigger_timing = 0
+consumes_rxn = false
+target_requirements_override = SubResource("Resource_o3vla")
+metadata/_custom_type_script = "uid://2wdyuf507vdl"

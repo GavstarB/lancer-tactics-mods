@@ -21,6 +21,7 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
     if not context.action is ActionAttackWeapon: return false
     var action : ActionAttackWeapon = context.action
 
+    if not action.range_pattern: return false
     if not (action.range_pattern.pattern == Lancer.AOE_TYPE.LINE):
         return false
     

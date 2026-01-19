@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="UnlockTree" load_steps=15 format=3 uid="uid://cuqm07tig2ys2"]
+
+[ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="1_k4vfx"]
+[ext_resource type="Script" uid="uid://dq0jowvw37x6i" path="res://engine/character/unit_core/unlock_tree.gd" id="1_qie03"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="2_rtqu0"]
+[ext_resource type="Script" uid="uid://ctb1pfqlfgmni" path="res://engine/character/unit_core/unlock_rank.gd" id="3_jqech"]
+[ext_resource type="Resource" uid="uid://2cbwhc52xumf" path="res://content/gear/ipsn/weapons/mw_tiger_hunter_combat_sheathe/mw_tiger_hunter_combat_sheathe.tres" id="3_rtqu0"]
+[ext_resource type="Resource" uid="uid://iuw510ag7cit" path="res://content/frames/ipsn/mf_zheng/mf_zheng.tres" id="4_dbiqh"]
+[ext_resource type="Resource" uid="uid://0hksq373sem3" path="res://content/gear/ipsn/systems/ms_total_strength_suite_i/ms_total_strength_suite_i.tres" id="4_jqech"]
+[ext_resource type="Resource" uid="uid://cd2h0wp6bxvig" path="res://content/gear/ipsn/systems/wm_molten_wreathe/wm_molten_wreathe.tres" id="7_bgorj"]
+[ext_resource type="Resource" uid="uid://b7olsmv3rerfj" path="res://content/gear/ipsn/systems/ms_total_strength_suite_ii/ms_total_strength_suite_ii.tres" id="8_d4od4"]
+[ext_resource type="Resource" uid="uid://b8o5nbs43r1w5" path="res://content/gear/ipsn/weapons/mw_d_d_288/mw_d_d_288.tres" id="9_s4ule"]
+[ext_resource type="Resource" uid="uid://bik5u1gxlja15" path="res://content/gear/ipsn/systems/ms_total_strength_suite_iii/ms_total_strength_suite_iii.tres" id="10_pvwe1"]
+
+[sub_resource type="Resource" id="Resource_bgorj"]
+script = ExtResource("3_jqech")
+granted_gear = Array[ExtResource("2_rtqu0")]([ExtResource("3_rtqu0"), ExtResource("4_jqech")])
+metadata/_custom_type_script = "uid://ctb1pfqlfgmni"
+
+[sub_resource type="Resource" id="Resource_d4od4"]
+script = ExtResource("3_jqech")
+granted_gear = Array[ExtResource("2_rtqu0")]([ExtResource("7_bgorj"), ExtResource("8_d4od4")])
+granted_frames = Array[ExtResource("1_k4vfx")]([ExtResource("4_dbiqh")])
+metadata/_custom_type_script = "uid://ctb1pfqlfgmni"
+
+[sub_resource type="Resource" id="Resource_s4ule"]
+script = ExtResource("3_jqech")
+granted_gear = Array[ExtResource("2_rtqu0")]([ExtResource("9_s4ule"), ExtResource("10_pvwe1")])
+metadata/_custom_type_script = "uid://ctb1pfqlfgmni"
+
+[resource]
+script = ExtResource("1_qie03")
+rank_1 = SubResource("Resource_bgorj")
+rank_2 = SubResource("Resource_d4od4")
+rank_3 = SubResource("Resource_s4ule")
+metadata/_custom_type_script = "uid://dq0jowvw37x6i"

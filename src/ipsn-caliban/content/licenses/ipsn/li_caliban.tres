@@ -1,7 +1,6 @@
-[gd_resource type="Resource" script_class="UnlockTree" load_steps=18 format=3 uid="uid://cc8h0bxbmetx2"]
+[gd_resource type="Resource" script_class="UnlockTree" load_steps=17 format=3 uid="uid://cc8h0bxbmetx2"]
 
 [ext_resource type="Script" uid="uid://dq0jowvw37x6i" path="res://engine/character/unit_core/unlock_tree.gd" id="1_54c5h"]
-[ext_resource type="Texture2D" uid="uid://b3lvbb44td7to" path="res://assets/units/pc/ipsn_caliban.png" id="1_t8eg3"]
 [ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="2_u1v66"]
 [ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_5l7gr"]
 [ext_resource type="Resource" uid="uid://buq25m8q1aay6" path="res://content/gear/ipsn/weapons/mw_hammer_u_rpl.tres" id="4_5l7gr"]
@@ -33,7 +32,6 @@ metadata/_custom_type_script = "uid://ctb1pfqlfgmni"
 
 [resource]
 script = ExtResource("1_54c5h")
-icon = ExtResource("1_t8eg3")
 rank_1 = SubResource("Resource_l1g3a")
 rank_2 = SubResource("Resource_qk8ts")
 rank_3 = SubResource("Resource_fu2i1")

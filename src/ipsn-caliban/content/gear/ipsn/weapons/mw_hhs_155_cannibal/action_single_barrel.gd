@@ -5,6 +5,7 @@ func is_available_to_activate(unit: Unit, gear: GearCore) -> bool:
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: return
     
     var counter: PassiveDieCounter = context.gear.get_die_counter_passive()
     

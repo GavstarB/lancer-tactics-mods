@@ -12,7 +12,7 @@ func triggers_on_event(unit: Unit, gear: GearCore, triggering_event: EventCore) 
     if not triggering_event.context.is_property_present(Context.PROP.event): return false
     var move_event: EventCore = triggering_event.context.event
     if(move_event.context.unit == unit): return false
-    if Faction.is_ally(move_event.context.unit.get_faction(), unit.get_faction()): return false
+    if UnitRelation.are_allies(move_event.context.unit, unit): return false
     if not move_event.context.is_property_present(Context.PROP.object): return false
     var specific: SpecificAction = move_event.context.object
     if(specific.unit != unit): return false

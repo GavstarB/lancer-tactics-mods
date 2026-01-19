@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Kit" load_steps=9 format=3 uid="uid://bqym405oqnh1o"]
+
+[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_48pku"]
+[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_88acb"]
+[ext_resource type="Resource" uid="uid://m4np3wmcs812" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_count_melee_attack.tres" id="2_t4euh"]
+[ext_resource type="Resource" uid="uid://bmaalfxv8k1ln" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_deploy_hard_cover.tres" id="3_7ipgt"]
+[ext_resource type="Script" uid="uid://5pqtbuyqw6eo" path="res://engine/character/gear_passive/passive_die_counter.gd" id="3_88acb"]
+[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_t4euh"]
+[ext_resource type="Texture2D" uid="uid://vqhcsj8p6xra" path="res://assets/icons/modded/ipsn-zheng/destructive_swings.png" id="4_7q5he"]
+
+[sub_resource type="Resource" id="Resource_t4euh"]
+script = ExtResource("3_88acb")
+key = "destructive_swings"
+starting_value = 1
+max_value = 99
+log_changes = false
+show_in_tooltips = false
+metadata/_custom_type_script = "uid://5pqtbuyqw6eo"
+
+[resource]
+script = ExtResource("3_t4euh")
+actions = Array[ExtResource("1_48pku")]([ExtResource("2_t4euh"), ExtResource("3_7ipgt")])
+passives = Array[ExtResource("2_88acb")]([SubResource("Resource_t4euh")])
+is_trait = true
+icon_override = ExtResource("4_7q5he")
+metadata/_custom_type_script = "uid://ckrv6mvs5q65e"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://cqcmntdry5ide"]
+
+[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_gsh25"]
+[ext_resource type="Resource" uid="uid://c2ivbo2t60udr" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.tres" id="2_egx8o"]
+[ext_resource type="Script" uid="uid://bk4j1n5b7u3ld" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_ingenuity.gd" id="3_48815"]
+[ext_resource type="Texture2D" uid="uid://xqlhsbhyi4wj" path="res://assets/icons/modded/ipsn-zheng/xiaolis_tenacity.png" id="3_egx8o"]
+
+[resource]
+script = ExtResource("3_48815")
+buffs = Array[ExtResource("1_gsh25")]([ExtResource("2_egx8o")])
+apply_only_to_self = true
+can_apply_to_self = true
+action_type = 4
+consumes_cp = true
+icon_override = ExtResource("3_egx8o")
+metadata/_custom_type_script = "uid://cm50wdj5g8syg"

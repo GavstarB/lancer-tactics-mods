@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://d13bcbttmn573"]
+
+[ext_resource type="Script" uid="uid://cdymvflb24wm5" path="res://content/gear/ipsn/systems/ms_total_strength_suite_ii/action_total_strength_suite_ii.gd" id="1_0upwx"]
+[ext_resource type="Texture2D" uid="uid://ba2l8pyxvj77h" path="res://assets/icons/modded/ipsn-zheng/ms_total_strength_suite_ii.png" id="1_mfl1f"]
+
+[resource]
+script = ExtResource("1_0upwx")
+action_type = 4
+clears_hidden = true
+icon_override = ExtResource("1_mfl1f")
+metadata/_custom_type_script = "uid://c6wq6p7arfrwe"

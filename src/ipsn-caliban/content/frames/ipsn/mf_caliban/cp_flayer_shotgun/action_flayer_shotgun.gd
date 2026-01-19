@@ -5,6 +5,7 @@ extends ActionAttackWeapon
 
 func activate(context: Context, activation: EventCore) -> void:
     await super.activate(context, activation)
+    if activation.aborted: return
     
     var units: Array[Unit] = context.map.get_all_units_at_tiles(Tile.get_neighbors(context.unit.state.tile, context.map), context.unit)
     if(len(units) > 0):
