@@ -27,14 +27,22 @@ func activate(context: Context, activation: EventCore) -> void:
     #var plan = await TargetActionUtil.ask_for_targets_alt(activation, specific2)
     var plan = await TargetActionUtil.ask_for_targets_from_proxy(activation, context.unit, context.gear, action, target_unit.state.tile, target_unit.get_size())
     if not plan.is_valid_with_targets(plan, context): return
-    var tiles = await action.get_aoe_tiles_with_target(action.range_pattern, plan.target_tiles, target_unit.state.tile, SpecificAction.create(context.unit, context.gear, action))
+    var tiles: Array[Vector2i] = []
+    if action.has_method("get_aoe_tiles_with_target"):
+        tiles = await action.call("get_aoe_tiles_with_target", action.range_pattern, plan.target_tiles, target_unit.state.tile, SpecificAction.create(context.unit, context.gear, action))
+    if action.has_method("get_aoe_tiles_with_targets"):
+        tiles = await action.call("get_aoe_tiles_with_targets", action.range_pattern, plan.target_tiles, target_unit.state.tile, SpecificAction.create(context.unit, context.gear, action))
     
     spend_actions(activation)
+    
+    print(tiles)
     
     var units: Array[Unit] = [target_unit]
     for unit in context.unit.map.get_all_units_at_tiles(tiles, context.unit):
         if unit.is_character():
             units.append(unit)
+    
+    print(units)
     
     tiles.append(target_unit.state.tile)
     await FxGroup.run_attack_and_targets(
