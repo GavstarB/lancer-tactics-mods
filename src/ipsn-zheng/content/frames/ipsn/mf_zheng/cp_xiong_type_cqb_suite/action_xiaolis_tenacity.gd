@@ -28,7 +28,6 @@ func activate(context: Context, activation: EventCore) -> void:
     
     var uses = context.gear.get_uses_this_turn(self)
     await super.activate(context, activation)
-    if activation.aborted: return
     if not Unit.is_valid(context.unit): return
     #if(uses == context.gear.get_uses_this_turn(self)): return
     

@@ -35,14 +35,10 @@ func activate(context: Context, activation: EventCore) -> void:
     
     spend_actions(activation)
     
-    print(tiles)
-    
     var units: Array[Unit] = [target_unit]
     for unit in context.unit.map.get_all_units_at_tiles(tiles, context.unit):
         if unit.is_character():
             units.append(unit)
-    
-    print(units)
     
     tiles.append(target_unit.state.tile)
     await FxGroup.run_attack_and_targets(
