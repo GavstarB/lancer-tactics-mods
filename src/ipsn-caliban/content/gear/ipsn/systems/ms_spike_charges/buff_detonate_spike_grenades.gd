@@ -59,7 +59,7 @@ func activate(core: BuffCore, activation: EventCore) -> void:
                     UnitCondition.clear_buff_id(activation, target_unit, buff.compcon_id, gear.persistent_id)
                     
                     if(target_unit.is_character()):
-                        activation.queue_events(CommonActionUtil.generate_knockback_events(target_unit, 3, specific))
+                        activation.queue_events(CommonActionUtil.generate_knockback_events(target_unit, 3, specific, target_unit.occupied_tiles()))
                     
                     activation.queue_event(&"event_unit_damage", {
                         unit = target_unit, 
