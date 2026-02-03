@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bl66p0wdg3038"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://nwqu3yrenosc" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/buff_pursue_prey.gd" id="1_2rjvl"]
-[ext_resource type="Resource" uid="uid://off0i7rhhy4r" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/movementtype_persue_prey.tres" id="1_muks1"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/buff_pursue_prey.gd" id="1_2rjvl"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/movementtype_persue_prey.tres" id="1_muks1"]
 
 [resource]
 script = ExtResource("1_2rjvl")

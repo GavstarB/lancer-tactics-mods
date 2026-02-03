@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="ActionSystemDeploy" load_steps=7 format=3 uid="uid://bdi17weep5v17"]
+[gd_resource type="Resource" script_class="ActionSystemDeploy" load_steps=7 format=3]
 
-[ext_resource type="Script" uid="uid://2wdyuf507vdl" path="res://engine/character/gear_action/archtypes/action_system_deploy.gd" id="1_2t7a1"]
-[ext_resource type="Resource" uid="uid://m28mp6fct83w" path="res://content/gear/ipsn/systems/ms_spike_charges/deployable/dep_spike_mine.tres" id="1_3sas1"]
-[ext_resource type="Texture2D" uid="uid://o2ps6dj7va12" path="res://assets/icons/modded/ipsn-caliban/action_spike_mine.png" id="2_ht2rt"]
-[ext_resource type="Texture2D" uid="uid://m7th0lci63tc" path="res://assets/units/deployable/mine.png" id="4_py3wi"]
-[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_80qgd"]
+[ext_resource type="Script" path="res://engine/character/gear_action/archtypes/action_system_deploy.gd" id="1_2t7a1"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/systems/ms_spike_charges/deployable/dep_spike_mine.tres" id="1_3sas1"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-caliban/action_spike_mine.png" id="2_ht2rt"]
+[ext_resource type="Texture2D" path="res://assets/units/deployable/mine.png" id="4_py3wi"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_80qgd"]
 
 [sub_resource type="Resource" id="Resource_wh1fg"]
 script = ExtResource("5_80qgd")

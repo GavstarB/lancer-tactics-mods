@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="BuffResistDamage" load_steps=3 format=3 uid="uid://dv56k7er6u3c5"]
+[gd_resource type="Resource" script_class="BuffResistDamage" load_steps=3 format=3]
 
-[ext_resource type="Texture2D" uid="uid://baea8fksvxar7" path="res://assets/icons/modded/gms-1st-party/action_rallying_cry.png" id="1_v5rb0"]
-[ext_resource type="Script" uid="uid://bym265b7dnjvc" path="res://engine/character/buff/archtypes/buff_resist_damage.gd" id="2_v5rb0"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/gms-1st-party/action_rallying_cry.png" id="1_v5rb0"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_resist_damage.gd" id="2_v5rb0"]
 
 [resource]
 script = ExtResource("2_v5rb0")

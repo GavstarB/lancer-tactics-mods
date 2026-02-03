@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://ddquf4xg7fsfa"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://dtlc4vj6w5i8o" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288.gd" id="1_1kv73"]
-[ext_resource type="Resource" uid="uid://dnnmlfn7oik2u" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_2qfed"]
-[ext_resource type="PackedScene" uid="uid://bwrhujmasvxto" path="res://content/fx_groups/mech/fxg_flying_takeoff.tscn" id="1_feiww"]
-[ext_resource type="Texture2D" uid="uid://d3em01vhayop6" path="res://assets/icons/modded/ipsn-zheng/disperse_d_d_288.png" id="3_w200o"]
+[ext_resource type="Script" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288.gd" id="1_1kv73"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_2qfed"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/mech/fxg_flying_takeoff.tscn" id="1_feiww"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/disperse_d_d_288.png" id="3_w200o"]
 
 [resource]
 script = ExtResource("1_1kv73")

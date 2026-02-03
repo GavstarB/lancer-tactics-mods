@@ -50,14 +50,21 @@ func activate(context: Context, activation: EventCore) -> void:
         if(len(deployed_ids) > 0):
             var dep: Unit = chosen.unit.map.get_unit_by_id(deployed_ids[0])
             var dep_tiles = []
-            if dep.core.frame.is_prop:
+            if dep.core.frame.is_marker():
                 for dep_gear: GearCore in dep.core.loadout.get_all_gear():
                     for passive in dep_gear.kit.passives:
                         if is_instance_of(passive, PassiveTerrainZone):
                             passive = passive as PassiveTerrainZone
                             if(passive.terrain_data != null):
                                 if(passive.terrain_data.cover == TerrainData.COVER.SOFT):
-                                    for tile in passive.range_pattern.get_aoe_tiles([dep.state.tile] as Array[Vector2i], [dep.state.tile] as Array[Vector2i], dep.get_size(), dep.map.shape):
+                                    for tile in passive.range_pattern.get_aoe_tiles(
+                                        passive.range_pattern.pattern,
+                                        passive.range_pattern.value,
+                                        dep.map.shape,
+                                        dep.get_size(),
+                                        [dep.state.tile] as Array[Vector2i],
+                                        [dep.state.tile] as Array[Vector2i]
+                                    ):
                                         if not dep_tiles.has(tile):
                                             dep_tiles.append(tile)
             else:

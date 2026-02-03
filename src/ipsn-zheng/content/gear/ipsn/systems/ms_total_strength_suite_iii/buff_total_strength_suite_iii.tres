@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dg1gyf3oa5ndm"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dvls0c3wqe4j8" path="res://content/gear/ipsn/systems/ms_total_strength_suite_iii/buff_total_strength_suite_iii.gd" id="1_4e6kd"]
+[ext_resource type="Script" path="res://content/gear/ipsn/systems/ms_total_strength_suite_iii/buff_total_strength_suite_iii.gd" id="1_4e6kd"]
 
 [resource]
 script = ExtResource("1_4e6kd")

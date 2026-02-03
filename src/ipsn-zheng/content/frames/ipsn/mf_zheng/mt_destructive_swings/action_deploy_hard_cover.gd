@@ -86,7 +86,7 @@ func place_deployables_at_target_tiles(activation: EventCore, target_tiles: Arra
     if remove_previous_deployments: queue_remove_previous_deployables(specific, activation)
 
     var flags: = []
-    if deployable_frame.is_prop: flags.append(EventUnitSpawn.FLAG.SKIP_ANIMATION)
+    if deployable_frame.is_marker(): flags.append(EventUnitSpawn.FLAG.SKIP_ANIMATION)
     if deploy_to_every_aoe_space and aoe:
         for aoe_tile: Vector2i in specific.action.get_aoe_tiles_with_target(
             aoe, 

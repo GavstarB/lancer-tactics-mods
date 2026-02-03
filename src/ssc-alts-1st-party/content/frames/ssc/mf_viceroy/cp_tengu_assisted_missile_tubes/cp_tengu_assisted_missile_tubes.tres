@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3 uid="uid://cq2u3c57g0rkc"]
+[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_8ox1h"]
-[ext_resource type="Resource" uid="uid://djcod52gtx5s6" path="res://content/frames/ssc/mf_viceroy/cp_tengu_assisted_missile_tubes/action_heavens_downpour.tres" id="2_kbpl7"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_t7yvs"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_kbpl7"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_8ox1h"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_viceroy/cp_tengu_assisted_missile_tubes/action_heavens_downpour.tres" id="2_kbpl7"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_t7yvs"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_kbpl7"]
 
 [resource]
 script = ExtResource("3_kbpl7")

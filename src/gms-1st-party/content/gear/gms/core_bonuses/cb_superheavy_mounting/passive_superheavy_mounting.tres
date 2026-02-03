@@ -1,9 +1,8 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bs75exh8hpha7"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dxo4c17lmk20k" path="res://content/gear/gms/core_bonuses/cb_superheavy_mounting/passive_superheavy_mounting.gd" id="1_ywuf8"]
+[ext_resource type="Script" path="res://content/gear/gms/core_bonuses/cb_superheavy_mounting/passive_superheavy_mounting.gd" id="1_ywuf8"]
 
 [resource]
 script = ExtResource("1_ywuf8")
-MOUNT = null
 priority = -10
 metadata/_custom_type_script = "uid://do28fuifopudn"

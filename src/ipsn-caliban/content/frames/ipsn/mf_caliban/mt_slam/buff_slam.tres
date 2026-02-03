@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://b7uurmlsja3ru"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://bckaunnwl755m" path="res://content/frames/ipsn/mf_caliban/mt_slam/buff_slam.gd" id="1_ijla8"]
-[ext_resource type="Texture2D" uid="uid://3jf6p7juu0rh" path="res://assets/icons/modded/ipsn-caliban/mt_slam.png" id="1_x0bwr"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_caliban/mt_slam/buff_slam.gd" id="1_ijla8"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-caliban/mt_slam.png" id="1_x0bwr"]
 
 [resource]
 script = ExtResource("1_ijla8")

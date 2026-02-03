@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="BuffBonus" load_steps=2 format=3 uid="uid://dg78cdqyvxwuy"]
+[gd_resource type="Resource" script_class="BuffBonus" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://bav10yhc56w73" path="res://engine/character/buff/archtypes/buff_bonus.gd" id="1_ljbi8"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_bonus.gd" id="1_ljbi8"]
 
 [resource]
 script = ExtResource("1_ljbi8")

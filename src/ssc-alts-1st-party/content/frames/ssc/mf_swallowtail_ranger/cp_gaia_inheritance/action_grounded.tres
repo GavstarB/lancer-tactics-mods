@@ -1,11 +1,11 @@
-[gd_resource type="Resource" load_steps=7 format=3 uid="uid://jsv6dq7676xv"]
+[gd_resource type="Resource" load_steps=7 format=3]
 
-[ext_resource type="Resource" uid="uid://dr08jjddk2xe7" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_guerrilla_warfare.tres" id="1_4e4ep"]
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_hvdnp"]
-[ext_resource type="Script" uid="uid://bs0oub0uywh76" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/action_grounded.gd" id="2_hvdnp"]
-[ext_resource type="Resource" uid="uid://vudfjtbshnbl" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded.tres" id="2_y0to2"]
-[ext_resource type="Resource" uid="uid://bqspj6sjpkucn" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded_invisibility.tres" id="3_b3vx1"]
-[ext_resource type="Texture2D" uid="uid://isj4nbfq2hpg" path="res://assets/icons/modded/ssc-alts-1st-party/buff_grounded.png" id="5_eaxao"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_guerrilla_warfare.tres" id="1_4e4ep"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="1_hvdnp"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/action_grounded.gd" id="2_hvdnp"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded.tres" id="2_y0to2"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded_invisibility.tres" id="3_b3vx1"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/buff_grounded.png" id="5_eaxao"]
 
 [resource]
 script = ExtResource("2_hvdnp")

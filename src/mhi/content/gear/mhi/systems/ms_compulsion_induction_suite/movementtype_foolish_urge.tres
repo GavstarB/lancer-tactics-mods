@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://t0mqblwbaru2"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://bv7u6ge5hp0tg" path="res://content/gear/mhi/systems/ms_compulsion_induction_suite/movementtype_foolish_urge.gd" id="1_jvdrv"]
+[ext_resource type="Script" path="res://content/gear/mhi/systems/ms_compulsion_induction_suite/movementtype_foolish_urge.gd" id="1_jvdrv"]
 
 [resource]
 script = ExtResource("1_jvdrv")

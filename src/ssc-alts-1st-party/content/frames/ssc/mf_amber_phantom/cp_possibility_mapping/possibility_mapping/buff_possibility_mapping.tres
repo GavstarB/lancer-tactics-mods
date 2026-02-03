@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="BuffDamage" load_steps=3 format=3 uid="uid://cnwaucfpdre5g"]
+[gd_resource type="Resource" script_class="BuffDamage" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://cq0gb4by4uruk" path="res://engine/character/buff/archtypes/buff_damage.gd" id="1_5xg7c"]
-[ext_resource type="Texture2D" uid="uid://d20512yd08ruv" path="res://assets/icons/modded/ssc-alts-1st-party/action_possibility_mapping.png" id="1_6xi1b"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_damage.gd" id="1_5xg7c"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/action_possibility_mapping.png" id="1_6xi1b"]
 
 [resource]
 script = ExtResource("1_5xg7c")

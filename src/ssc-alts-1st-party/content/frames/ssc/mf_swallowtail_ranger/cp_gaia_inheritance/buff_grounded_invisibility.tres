@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bqspj6sjpkucn"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://sx65x40ewm3t" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded_invisibility.gd" id="1_85e0o"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded_invisibility.gd" id="1_85e0o"]
 
 [resource]
 script = ExtResource("1_85e0o")

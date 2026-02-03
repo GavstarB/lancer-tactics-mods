@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://co1tcrhfhaonc"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dhjv7jqsnuxeh" path="res://content/frames/ssc/mf_orchis/cp_helion/action_regain_cp.gd" id="1_ufr5w"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_orchis/cp_helion/action_regain_cp.gd" id="1_ufr5w"]
 
 [resource]
 script = ExtResource("1_ufr5w")

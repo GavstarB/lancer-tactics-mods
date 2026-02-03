@@ -1,10 +1,10 @@
-[gd_resource type="Resource" load_steps=7 format=3 uid="uid://b55dsq7ce8sye"]
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://7vij3u1cq6sd"]
 
 [ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_05p2j"]
-[ext_resource type="Script" uid="uid://cyhsda0crogkb" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_scout_battlefield.gd" id="1_ttqvf"]
-[ext_resource type="Resource" uid="uid://b3d35gfam1e8y" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_soft_cover.tres" id="2_v5p8k"]
-[ext_resource type="Resource" uid="uid://pn5hud7i4yhn" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_difficult_terrain.tres" id="3_gsrfq"]
-[ext_resource type="Resource" uid="uid://ct1458vi5xjvt" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_hard_cover.tres" id="4_r84m7"]
+[ext_resource type="Script" uid="uid://btek2ccss7lft" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_scout_battlefield.gd" id="1_ttqvf"]
+[ext_resource type="Resource" uid="uid://ygfnvomm76i0" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_soft_cover.tres" id="2_v5p8k"]
+[ext_resource type="Resource" uid="uid://dkynhpn3uu50r" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_difficult_terrain.tres" id="3_gsrfq"]
+[ext_resource type="Resource" uid="uid://dw4qbtkf3gue1" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_hard_cover.tres" id="4_r84m7"]
 [ext_resource type="Texture2D" uid="uid://dcdlc7dio1lf0" path="res://assets/icons/modded/ssc-alts-1st-party/mt_scout_battlefield.png" id="5_v5p8k"]
 
 [resource]
@@ -12,6 +12,5 @@ script = ExtResource("1_ttqvf")
 actions = Array[ExtResource("1_05p2j")]([ExtResource("2_v5p8k"), ExtResource("3_gsrfq"), ExtResource("4_r84m7")])
 triggers_on = Array[int]([12])
 consumes_rxn = false
-counts_as_free_action = true
 icon_override = ExtResource("5_v5p8k")
 metadata/_custom_type_script = "uid://crqxmv8pxyk6g"

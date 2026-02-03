@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://ctct5emn6hsuj"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="PackedScene" uid="uid://wy4ysqts83rs" path="res://content/fx_groups/weapons/flamethrower/fxg_heavy_flamethrower_target.tscn" id="1_dlpgh"]
-[ext_resource type="Script" uid="uid://dx3nagque1aay" path="res://content/gear/ipsn/systems/wm_molten_wreathe/action_molten_wreathe.gd" id="1_kt5wg"]
-[ext_resource type="PackedScene" uid="uid://tfqwjgcrrhv3" path="res://content/fx_groups/weapons/flamethrower/fxg_heavy_flamethrower.tscn" id="2_2wcbf"]
-[ext_resource type="Texture2D" uid="uid://cem654800ttli" path="res://assets/icons/modded/ipsn-zheng/molten_wreathe.png" id="3_26f7h"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/flamethrower/fxg_heavy_flamethrower_target.tscn" id="1_dlpgh"]
+[ext_resource type="Script" path="res://content/gear/ipsn/systems/wm_molten_wreathe/action_molten_wreathe.gd" id="1_kt5wg"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/flamethrower/fxg_heavy_flamethrower.tscn" id="2_2wcbf"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/molten_wreathe.png" id="3_26f7h"]
 
 [resource]
 script = ExtResource("1_kt5wg")

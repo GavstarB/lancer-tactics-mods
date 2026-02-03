@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://blrlwb7i2vlcn"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Resource" uid="uid://dv56k7er6u3c5" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner_target.tres" id="1_ttn35"]
-[ext_resource type="Script" uid="uid://dlcjqbclcor6i" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner.gd" id="2_7i2u4"]
-[ext_resource type="Resource" uid="uid://bxrowyagfivnr" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner_saves.tres" id="2_57xyg"]
-[ext_resource type="Texture2D" uid="uid://baea8fksvxar7" path="res://assets/icons/modded/gms-1st-party/action_rallying_cry.png" id="3_57xyg"]
+[ext_resource type="Resource" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner_target.tres" id="1_ttn35"]
+[ext_resource type="Script" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner.gd" id="2_7i2u4"]
+[ext_resource type="Resource" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/buff_raise_the_banner_saves.tres" id="2_57xyg"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/gms-1st-party/action_rallying_cry.png" id="3_57xyg"]
 
 [resource]
 script = ExtResource("2_7i2u4")

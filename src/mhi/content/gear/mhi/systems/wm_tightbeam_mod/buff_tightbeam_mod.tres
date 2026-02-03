@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cunsko21qxi4i"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://vcfs1rmyss7x" path="res://content/gear/mhi/systems/wm_tightbeam_mod/buff_tightbeam_mod.gd" id="1_sctg8"]
+[ext_resource type="Script" path="res://content/gear/mhi/systems/wm_tightbeam_mod/buff_tightbeam_mod.gd" id="1_sctg8"]
 
 [resource]
 script = ExtResource("1_sctg8")

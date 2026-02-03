@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3 uid="uid://sbet4ewott7o"]
+[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_hk3bc"]
-[ext_resource type="Resource" uid="uid://dkoo2hpe1csle" path="res://content/gear/mhi/systems/ms_scatter_drone/action_scatter_drone.tres" id="2_l3llp"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_snhv8"]
-[ext_resource type="Resource" uid="uid://cjo6qk752furt" path="res://content/gear/shared/action_redeploy/action_redeploy.tres" id="3_a0opo"]
-[ext_resource type="Resource" uid="uid://hsp8iy7haje6" path="res://content/gear/mhi/systems/ms_scatter_drone/action_scatter_drone_attacked.tres" id="3_ayh7e"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_l3llp"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_hk3bc"]
+[ext_resource type="Resource" path="res://content/gear/mhi/systems/ms_scatter_drone/action_scatter_drone.tres" id="2_l3llp"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_snhv8"]
+[ext_resource type="Resource" path="res://content/gear/shared/action_redeploy/action_redeploy.tres" id="3_a0opo"]
+[ext_resource type="Resource" path="res://content/gear/mhi/systems/ms_scatter_drone/action_scatter_drone_attacked.tres" id="3_ayh7e"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_l3llp"]
 
 [resource]
 script = ExtResource("3_l3llp")

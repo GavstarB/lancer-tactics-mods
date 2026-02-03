@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3 uid="uid://c2erxs0ptkbgf"]
+[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_th2w3"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_73rae"]
-[ext_resource type="Resource" uid="uid://cydbnerxhil5x" path="res://content/frames/ssc/mf_orchis/cp_helion/action_hunting_eagle.tres" id="2_bng4y"]
-[ext_resource type="Resource" uid="uid://uvmghg15wnk2" path="res://content/frames/ssc/mf_orchis/cp_helion/action_helion.tres" id="2_twxw5"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_bng4y"]
-[ext_resource type="Resource" uid="uid://co1tcrhfhaonc" path="res://content/frames/ssc/mf_orchis/cp_helion/action_regain_cp.tres" id="4_xki7y"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_th2w3"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_73rae"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/cp_helion/action_hunting_eagle.tres" id="2_bng4y"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/cp_helion/action_helion.tres" id="2_twxw5"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_bng4y"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/cp_helion/action_regain_cp.tres" id="4_xki7y"]
 
 [resource]
 script = ExtResource("3_bng4y")

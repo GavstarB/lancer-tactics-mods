@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Frame" load_steps=10 format=3 uid="uid://b6d055fa53yt2"]
+[gd_resource type="Resource" script_class="Frame" load_steps=10 format=3]
 
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="1_6v8dk"]
-[ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="2_ijic7"]
-[ext_resource type="Texture2D" uid="uid://yh37ncp6dh4t" path="res://assets/units/pc/ssc_viceroy.png" id="3_tbxpu"]
-[ext_resource type="Script" uid="uid://bxpc46igtsmvw" path="res://engine/character/unit/statblock.gd" id="4_jdm8n"]
-[ext_resource type="Resource" uid="uid://cq2u3c57g0rkc" path="res://content/frames/ssc/mf_viceroy/cp_tengu_assisted_missile_tubes/cp_tengu_assisted_missile_tubes.tres" id="5_tbxpu"]
-[ext_resource type="Resource" uid="uid://ctuuls557sra" path="res://content/frames/ssc/mf_viceroy/mt_near_threat_targeting_processor/mt_near_threat_targeting_processor.tres" id="6_ll38s"]
-[ext_resource type="Resource" uid="uid://ixj2svl1h80p" path="res://content/frames/ssc/mf_viceroy/mt_vigilante_omnidirectional_launchers/mt_vigilante_omnidirectional_launchers.tres" id="7_j0m77"]
-[ext_resource type="Resource" uid="uid://d240ydlax2gkd" path="res://content/frames/ssc/mf_viceroy/mt_pressure_plating_viceroy.tres" id="8_jsl53"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="1_6v8dk"]
+[ext_resource type="Script" path="res://engine/character/unit_core/frame.gd" id="2_ijic7"]
+[ext_resource type="Texture2D" path="res://assets/units/pc/ssc_viceroy.png" id="3_tbxpu"]
+[ext_resource type="Script" path="res://engine/character/unit/statblock.gd" id="4_jdm8n"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_viceroy/cp_tengu_assisted_missile_tubes/cp_tengu_assisted_missile_tubes.tres" id="5_tbxpu"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_viceroy/mt_near_threat_targeting_processor/mt_near_threat_targeting_processor.tres" id="6_ll38s"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_viceroy/mt_vigilante_omnidirectional_launchers/mt_vigilante_omnidirectional_launchers.tres" id="7_j0m77"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_viceroy/mt_pressure_plating_viceroy.tres" id="8_jsl53"]
 
 [sub_resource type="Resource" id="Resource_eh1uv"]
 script = ExtResource("4_jdm8n")

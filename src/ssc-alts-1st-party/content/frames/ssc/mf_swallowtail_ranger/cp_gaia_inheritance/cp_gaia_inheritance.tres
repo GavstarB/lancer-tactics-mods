@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=10 format=3 uid="uid://br7wl0rchrd"]
+[gd_resource type="Resource" script_class="Kit" load_steps=10 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_g26cb"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_f3xim"]
-[ext_resource type="Resource" uid="uid://61olufhnc4rq" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/action_guerrilla_warfare.tres" id="2_i6ij5"]
-[ext_resource type="Resource" uid="uid://jsv6dq7676xv" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/action_grounded.tres" id="2_jnhuo"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_jnhuo"]
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="5_4pif3"]
-[ext_resource type="Resource" uid="uid://vudfjtbshnbl" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded.tres" id="6_0mi0q"]
-[ext_resource type="Script" uid="uid://dy4kg537rc55e" path="res://engine/character/gear_passive/passive_buff_applicator.gd" id="7_mn2f2"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_g26cb"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_f3xim"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/action_guerrilla_warfare.tres" id="2_i6ij5"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/action_grounded.tres" id="2_jnhuo"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_jnhuo"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="5_4pif3"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/buff_grounded.tres" id="6_0mi0q"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive_buff_applicator.gd" id="7_mn2f2"]
 
 [sub_resource type="Resource" id="Resource_ojvuq"]
 script = ExtResource("7_mn2f2")

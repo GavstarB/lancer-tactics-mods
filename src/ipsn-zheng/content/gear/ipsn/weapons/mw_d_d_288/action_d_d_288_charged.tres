@@ -1,11 +1,11 @@
-[gd_resource type="Resource" load_steps=8 format=3 uid="uid://br5s6nd4ewh1i"]
+[gd_resource type="Resource" load_steps=8 format=3]
 
-[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_yc0ga"]
-[ext_resource type="Resource" uid="uid://dnnmlfn7oik2u" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="2_5vmbs"]
-[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_kqqjh"]
-[ext_resource type="Texture2D" uid="uid://beuy7mbtw8coj" path="res://assets/icons/modded/ipsn-zheng/d_d_288_charged.png" id="3_dqmlf"]
-[ext_resource type="Script" uid="uid://dx7dsqh8y7jc" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_charged.gd" id="3_kqqjh"]
-[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_5vmbs"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_yc0ga"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="2_5vmbs"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_kqqjh"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/d_d_288_charged.png" id="3_dqmlf"]
+[ext_resource type="Script" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_charged.gd" id="3_kqqjh"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_5vmbs"]
 
 [sub_resource type="Resource" id="Resource_dqmlf"]
 script = ExtResource("4_5vmbs")

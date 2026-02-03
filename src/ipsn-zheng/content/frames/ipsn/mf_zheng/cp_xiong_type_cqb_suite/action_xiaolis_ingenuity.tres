@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://cqcmntdry5ide"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_gsh25"]
-[ext_resource type="Resource" uid="uid://c2ivbo2t60udr" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.tres" id="2_egx8o"]
-[ext_resource type="Script" uid="uid://bk4j1n5b7u3ld" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_ingenuity.gd" id="3_48815"]
-[ext_resource type="Texture2D" uid="uid://xqlhsbhyi4wj" path="res://assets/icons/modded/ipsn-zheng/xiaolis_tenacity.png" id="3_egx8o"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="1_gsh25"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.tres" id="2_egx8o"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_ingenuity.gd" id="3_48815"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/xiaolis_tenacity.png" id="3_egx8o"]
 
 [resource]
 script = ExtResource("3_48815")

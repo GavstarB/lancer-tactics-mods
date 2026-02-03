@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://df1r3gpckwcyh"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Texture2D" uid="uid://b070kveepuuuf" path="res://assets/icons/modded/ssc-alts-1st-party/mt_battle_oracle.png" id="1_kigib"]
-[ext_resource type="Script" uid="uid://cqdcmv0r1b1ux" path="res://content/frames/ssc/mf_amber_phantom/mt_battle_oracle/action_battle_oracle.gd" id="1_ykfge"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/mt_battle_oracle.png" id="1_kigib"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_amber_phantom/mt_battle_oracle/action_battle_oracle.gd" id="1_ykfge"]
 
 [resource]
 script = ExtResource("1_ykfge")

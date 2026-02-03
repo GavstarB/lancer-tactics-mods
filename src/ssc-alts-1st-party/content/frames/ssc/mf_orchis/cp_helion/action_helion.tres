@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://uvmghg15wnk2"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Resource" uid="uid://crxxh7aeixdjj" path="res://content/frames/ssc/mf_orchis/cp_helion/buff_helion_autohit.tres" id="1_gnnn3"]
-[ext_resource type="Texture2D" uid="uid://ut0kgf3lb0ru" path="res://assets/icons/modded/ssc-alts-1st-party/cp_helion.png" id="2_swtum"]
-[ext_resource type="Resource" uid="uid://bohy0i86gjyw6" path="res://content/gear/basic/mw_ram/action_ram.tres" id="2_ux68a"]
-[ext_resource type="Script" uid="uid://bvxe3txvll68d" path="res://content/frames/ssc/mf_orchis/cp_helion/action_helion.gd" id="3_swtum"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/cp_helion/buff_helion_autohit.tres" id="1_gnnn3"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/cp_helion.png" id="2_swtum"]
+[ext_resource type="Resource" path="res://content/gear/basic/mw_ram/action_ram.tres" id="2_ux68a"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_orchis/cp_helion/action_helion.gd" id="3_swtum"]
 
 [resource]
 script = ExtResource("3_swtum")

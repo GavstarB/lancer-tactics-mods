@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://c20bbybvoooq0"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Resource" uid="uid://dnnmlfn7oik2u" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_f67lr"]
-[ext_resource type="Script" uid="uid://daj1rffirbpwb" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288_on_status.gd" id="1_voftq"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_f67lr"]
+[ext_resource type="Script" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_disperse_d_d_288_on_status.gd" id="1_voftq"]
 
 [resource]
 script = ExtResource("1_voftq")

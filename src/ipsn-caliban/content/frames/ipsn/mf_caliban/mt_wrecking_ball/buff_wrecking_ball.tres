@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://d15qyh6pwmvol"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Texture2D" uid="uid://ct2tvmabotakj" path="res://assets/icons/modded/ipsn-caliban/mt_wrecking_ball.png" id="1_y50lr"]
-[ext_resource type="Script" uid="uid://cx4e36e62pb2x" path="res://content/frames/ipsn/mf_caliban/mt_wrecking_ball/buff_wrecking_ball.gd" id="2_y50lr"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-caliban/mt_wrecking_ball.png" id="1_y50lr"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_caliban/mt_wrecking_ball/buff_wrecking_ball.gd" id="2_y50lr"]
 
 [resource]
 script = ExtResource("2_y50lr")

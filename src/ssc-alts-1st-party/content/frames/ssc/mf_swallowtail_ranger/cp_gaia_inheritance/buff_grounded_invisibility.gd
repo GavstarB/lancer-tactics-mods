@@ -6,14 +6,21 @@ func is_in_soft_cover_zone(unit: Unit, tile_override: Vector2i = Tile.INVALID) -
         unit_tile = tile_override
     var soft_cover_spaces: Array[Vector2i] = []
     for dep: Unit in unit.map.get_all_units(false, false):
-        if dep.core.frame.is_deployable or dep.core.frame.is_prop:
+        if dep.core.frame.is_deployable or dep.core.frame.is_marker():
             for dep_gear: GearCore in dep.core.loadout.get_all_gear():
                 for passive in dep_gear.kit.passives:
                     if is_instance_of(passive, PassiveTerrainZone):
                         passive = passive as PassiveTerrainZone
                         if(passive.terrain_data != null):
                             if(passive.terrain_data.cover == TerrainData.COVER.SOFT):
-                                for tile in passive.range_pattern.get_aoe_tiles([dep.state.tile] as Array[Vector2i], [dep.state.tile] as Array[Vector2i], dep.get_size(), dep.map.shape):
+                                for tile in passive.range_pattern.get_aoe_tiles(
+                                    passive.range_pattern.pattern,
+                                    passive.range_pattern.value,
+                                    dep.map.shape,
+                                    dep.get_size(),
+                                    [dep.state.tile] as Array[Vector2i],
+                                    [dep.state.tile] as Array[Vector2i]
+                                ):
                                     if not soft_cover_spaces.has(tile):
                                         soft_cover_spaces.append(tile)
     if not soft_cover_spaces.has(unit_tile): 

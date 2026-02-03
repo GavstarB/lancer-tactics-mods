@@ -1,8 +1,8 @@
-[gd_resource type="Resource" load_steps=4 format=3 uid="uid://6a7enqe5v1d6"]
+[gd_resource type="Resource" load_steps=4 format=3]
 
-[ext_resource type="Resource" uid="uid://cvwaaafnk3njt" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/buff_perfect_parry.tres" id="1_6feof"]
-[ext_resource type="Script" uid="uid://bykglsor6ugxe" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/action_perfect_parry_adjacent.gd" id="2_gjhsh"]
-[ext_resource type="Texture2D" uid="uid://c4b8676nss6ni" path="res://assets/icons/modded/ssc-alts-1st-party/buff_perfect_parry.png" id="2_mj6v8"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/buff_perfect_parry.tres" id="1_6feof"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/action_perfect_parry_adjacent.gd" id="2_gjhsh"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/buff_perfect_parry.png" id="2_mj6v8"]
 
 [resource]
 script = ExtResource("2_gjhsh")

@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Frame" load_steps=10 format=3 uid="uid://dawtakj182b0r"]
+[gd_resource type="Resource" script_class="Frame" load_steps=10 format=3]
 
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="1_numh0"]
-[ext_resource type="Script" uid="uid://daycu0mqh1rbq" path="res://engine/character/unit_core/frame.gd" id="2_gd36j"]
-[ext_resource type="Texture2D" uid="uid://b52atgayvhq6p" path="res://assets/units/pc/ssc_orchis.png" id="3_uubbh"]
-[ext_resource type="Script" uid="uid://bxpc46igtsmvw" path="res://engine/character/unit/statblock.gd" id="4_kuv4v"]
-[ext_resource type="Resource" uid="uid://c2erxs0ptkbgf" path="res://content/frames/ssc/mf_orchis/cp_helion/cp_helion.tres" id="5_uubbh"]
-[ext_resource type="Resource" uid="uid://dipnifg8hd258" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/mt_perfect_parry.tres" id="6_v4iea"]
-[ext_resource type="Resource" uid="uid://cnx62bb0ihjrr" path="res://content/frames/shared/mt_guardian/mt_guardian.tres" id="7_ofnou"]
-[ext_resource type="Resource" uid="uid://vx342tj63uj" path="res://content/frames/ssc/mf_orchis/mt_royal_guard/mt_royal_guard.tres" id="8_nlo76"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="1_numh0"]
+[ext_resource type="Script" path="res://engine/character/unit_core/frame.gd" id="2_gd36j"]
+[ext_resource type="Texture2D" path="res://assets/units/pc/ssc_orchis.png" id="3_uubbh"]
+[ext_resource type="Script" path="res://engine/character/unit/statblock.gd" id="4_kuv4v"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/cp_helion/cp_helion.tres" id="5_uubbh"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/mt_perfect_parry.tres" id="6_v4iea"]
+[ext_resource type="Resource" path="res://content/frames/shared/mt_guardian/mt_guardian.tres" id="7_ofnou"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_orchis/mt_royal_guard/mt_royal_guard.tres" id="8_nlo76"]
 
 [sub_resource type="Resource" id="Resource_qos8d"]
 script = ExtResource("4_kuv4v")

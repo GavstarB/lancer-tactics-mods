@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://m4np3wmcs812"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dwukb1nth8dot" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_count_melee_attack.gd" id="1_ryo26"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_count_melee_attack.gd" id="1_ryo26"]
 
 [resource]
 script = ExtResource("1_ryo26")

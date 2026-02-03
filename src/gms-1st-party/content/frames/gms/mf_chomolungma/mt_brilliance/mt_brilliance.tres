@@ -1,8 +1,8 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3 uid="uid://dfv0f75qfo2v2"]
+[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3 uid="uid://c1tis8rmcolw8"]
 
 [ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_3dvfi"]
 [ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_alx01"]
-[ext_resource type="Resource" uid="uid://ologgadyykvw" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/action_brilliance.tres" id="2_ki732"]
+[ext_resource type="Resource" uid="uid://cqbm6hnkkm4t1" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/action_brilliance.tres" id="2_ki732"]
 [ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_ki732"]
 
 [resource]

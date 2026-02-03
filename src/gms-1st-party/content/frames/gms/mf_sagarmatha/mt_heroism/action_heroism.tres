@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://burmsmdysqdml"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://c0g3v65qycy51" path="res://content/frames/gms/mf_sagarmatha/mt_heroism/action_heroism.gd" id="1_uvjxm"]
+[ext_resource type="Script" path="res://content/frames/gms/mf_sagarmatha/mt_heroism/action_heroism.gd" id="1_uvjxm"]
 
 [resource]
 script = ExtResource("1_uvjxm")

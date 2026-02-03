@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cmi34v1uqqv3y"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://b07y6upgfetae" path="res://content/gear/ipsn/systems/wm_supermassive_mod/buff_supermassive_mod.gd" id="1_me5qd"]
+[ext_resource type="Script" path="res://content/gear/ipsn/systems/wm_supermassive_mod/buff_supermassive_mod.gd" id="1_me5qd"]
 
 [resource]
 script = ExtResource("1_me5qd")

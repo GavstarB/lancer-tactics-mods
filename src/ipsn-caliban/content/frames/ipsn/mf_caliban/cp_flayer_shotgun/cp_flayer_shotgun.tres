@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3 uid="uid://dgwu3wkgrervy"]
+[gd_resource type="Resource" script_class="Kit" load_steps=7 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_2iv6n"]
-[ext_resource type="Resource" uid="uid://fixq74p168ae" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun.tres" id="2_cpmnn"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_dov7a"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_cpmnn"]
-[ext_resource type="Resource" uid="uid://bhs462hufem18" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_equip_autochoke.tres" id="3_yajpd"]
-[ext_resource type="Resource" uid="uid://daeykomd1x2yg" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun_autochoke.tres" id="4_nugnk"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_2iv6n"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun.tres" id="2_cpmnn"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_dov7a"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_cpmnn"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_equip_autochoke.tres" id="3_yajpd"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun_autochoke.tres" id="4_nugnk"]
 
 [resource]
 script = ExtResource("3_cpmnn")

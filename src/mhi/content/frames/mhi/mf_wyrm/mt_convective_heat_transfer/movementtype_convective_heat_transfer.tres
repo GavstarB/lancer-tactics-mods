@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="MovementType" load_steps=2 format=3 uid="uid://c0f1x7hj13c04"]
+[gd_resource type="Resource" script_class="MovementType" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://udxarj3kb6nm" path="res://engine/character/unit/movement_type.gd" id="1_igek2"]
+[ext_resource type="Script" path="res://engine/character/unit/movement_type.gd" id="1_igek2"]
 
 [resource]
 script = ExtResource("1_igek2")

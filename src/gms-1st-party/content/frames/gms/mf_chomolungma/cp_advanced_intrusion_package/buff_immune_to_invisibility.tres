@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="BuffStatusImmunity" load_steps=2 format=3 uid="uid://ikocmit35n0e"]
+[gd_resource type="Resource" script_class="BuffStatusImmunity" load_steps=2 format=3 uid="uid://rd6215wnl3pl"]
 
 [ext_resource type="Script" uid="uid://cm107udeeibkt" path="res://engine/character/buff/archtypes/buff_status_immunity.gd" id="1_mll0j"]
 

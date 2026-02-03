@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cwwyuot778bny"]
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://wtnmsw42e8na"]
 
-[ext_resource type="Script" uid="uid://yylup0nx2pq5" path="res://content/frames/gms/mf_chomolungma/cp_advanced_intrusion_package/buff_wide_area_code_pulse.gd" id="1_7ntal"]
+[ext_resource type="Script" uid="uid://deaj8n1d6p7fh" path="res://content/frames/gms/mf_chomolungma/cp_advanced_intrusion_package/buff_wide_area_code_pulse.gd" id="1_7ntal"]
 
 [resource]
 script = ExtResource("1_7ntal")

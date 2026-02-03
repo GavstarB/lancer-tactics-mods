@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="BuffSkillSave" load_steps=2 format=3 uid="uid://bxrowyagfivnr"]
+[gd_resource type="Resource" script_class="BuffSkillSave" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://d1ariwna5bslg" path="res://engine/character/buff/archtypes/buff_skill_save.gd" id="1_4xu7f"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_skill_save.gd" id="1_4xu7f"]
 
 [resource]
 script = ExtResource("1_4xu7f")

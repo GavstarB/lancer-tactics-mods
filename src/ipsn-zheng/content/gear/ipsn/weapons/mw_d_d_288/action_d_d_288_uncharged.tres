@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://vcom4scs5gpi"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_jnjo4"]
-[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_1dmk5"]
-[ext_resource type="Texture2D" uid="uid://b3ufs76y8dfi5" path="res://assets/icons/modded/ipsn-zheng/d_d_288_uncharged.png" id="2_6yew8"]
-[ext_resource type="Script" uid="uid://0yug1ta23lwm" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_uncharged.gd" id="3_jnjo4"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_jnjo4"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_1dmk5"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/d_d_288_uncharged.png" id="2_6yew8"]
+[ext_resource type="Script" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_d_d_288_uncharged.gd" id="3_jnjo4"]
 
 [resource]
 script = ExtResource("3_jnjo4")

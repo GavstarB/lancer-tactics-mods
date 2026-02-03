@@ -1,12 +1,12 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=10 format=3 uid="uid://n0x8r5hssxso"]
+[gd_resource type="Resource" script_class="Kit" load_steps=10 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_rswgq"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_56t6h"]
-[ext_resource type="Texture2D" uid="uid://osnhh5pep28d" path="res://assets/icons/modded/ipsn-caliban/buff_weak_computer.png" id="2_rswgq"]
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="3_pbygo"]
-[ext_resource type="Script" uid="uid://d1ariwna5bslg" path="res://engine/character/buff/archtypes/buff_skill_save.gd" id="5_41uqn"]
-[ext_resource type="Script" uid="uid://dy4kg537rc55e" path="res://engine/character/gear_passive/passive_buff_applicator.gd" id="6_3t56a"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="7_ph45s"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_rswgq"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_56t6h"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-caliban/buff_weak_computer.png" id="2_rswgq"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="3_pbygo"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_skill_save.gd" id="5_41uqn"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive_buff_applicator.gd" id="6_3t56a"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="7_ph45s"]
 
 [sub_resource type="Resource" id="Resource_4ng2y"]
 script = ExtResource("5_41uqn")

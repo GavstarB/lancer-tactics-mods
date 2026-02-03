@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=6 format=3 uid="uid://csewpx2wspll2"]
+[gd_resource type="Resource" script_class="Kit" load_steps=6 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_jjc3b"]
-[ext_resource type="Resource" uid="uid://xdcolibr1bf3" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey.tres" id="2_5akbo"]
-[ext_resource type="Resource" uid="uid://chxr6drnnfcom" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey_clear.tres" id="3_yyvwb"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="4_3emhe"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="5_ilu7x"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_jjc3b"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey.tres" id="2_5akbo"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/mt_pursue_prey/action_pursue_prey_clear.tres" id="3_yyvwb"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="4_3emhe"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="5_ilu7x"]
 
 [resource]
 script = ExtResource("5_ilu7x")

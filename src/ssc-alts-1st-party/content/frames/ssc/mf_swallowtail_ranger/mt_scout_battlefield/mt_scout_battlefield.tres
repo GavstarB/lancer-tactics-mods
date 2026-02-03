@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3 uid="uid://b741pjqwd8ygx"]
+[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_hunbv"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_obnsl"]
-[ext_resource type="Resource" uid="uid://b55dsq7ce8sye" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_scout_battlefield.tres" id="2_syea5"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_a0o1m"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_hunbv"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_obnsl"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_scout_battlefield.tres" id="2_syea5"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_a0o1m"]
 
 [resource]
 script = ExtResource("3_a0o1m")

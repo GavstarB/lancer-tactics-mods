@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="BuffResistDamage" load_steps=3 format=3 uid="uid://d2mybukqulgs2"]
+[gd_resource type="Resource" script_class="BuffResistDamage" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://bym265b7dnjvc" path="res://engine/character/buff/archtypes/buff_resist_damage.gd" id="1_ahow0"]
-[ext_resource type="Texture2D" uid="uid://1vxlrgfr7pkg" path="res://assets/icons/modded/ipsn-caliban/ms_hardpoint_reinforcement.png" id="1_gy7ae"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_resist_damage.gd" id="1_ahow0"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-caliban/ms_hardpoint_reinforcement.png" id="1_gy7ae"]
 
 [resource]
 script = ExtResource("1_ahow0")

@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cybwep3dyu3ck"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Texture2D" uid="uid://4b2l8n3b5m3i" path="res://assets/icons/modded/mhi/cp_radiative_cooling.png" id="1_igqri"]
-[ext_resource type="Script" uid="uid://dorco1nkdlrw8" path="res://content/frames/mhi/mf_wyrm/cp_flux_pinned_radiators/action_radiative_cooling.gd" id="1_oeryc"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/mhi/cp_radiative_cooling.png" id="1_igqri"]
+[ext_resource type="Script" path="res://content/frames/mhi/mf_wyrm/cp_flux_pinned_radiators/action_radiative_cooling.gd" id="1_oeryc"]
 
 [resource]
 script = ExtResource("1_oeryc")

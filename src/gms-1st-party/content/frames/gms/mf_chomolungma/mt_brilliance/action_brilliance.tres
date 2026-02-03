@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ologgadyykvw"]
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cqbm6hnkkm4t1"]
 
 [ext_resource type="Texture2D" uid="uid://bg1a5lij2mrfl" path="res://assets/icons/hex_half.svg" id="1_v6gcq"]
-[ext_resource type="Script" uid="uid://bfy0xoue5rmcp" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/action_brilliance.gd" id="2_8i8se"]
+[ext_resource type="Script" uid="uid://bhmjh11x5phus" path="res://content/frames/gms/mf_chomolungma/mt_brilliance/action_brilliance.gd" id="2_8i8se"]
 
 [resource]
 script = ExtResource("2_8i8se")

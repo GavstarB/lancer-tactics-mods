@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3 uid="uid://cq472f3pq1pjw"]
+[gd_resource type="Resource" script_class="Kit" load_steps=5 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_yn5mc"]
-[ext_resource type="Resource" uid="uid://dc1h7v4lvkgye" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/action_raise_the_banner.tres" id="2_chdos"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_mqurx"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_chdos"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_yn5mc"]
+[ext_resource type="Resource" path="res://content/frames/gms/mf_sagarmatha/cp_rallying_cry/action_raise_the_banner.tres" id="2_chdos"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_mqurx"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_chdos"]
 
 [resource]
 script = ExtResource("3_chdos")

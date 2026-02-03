@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=11 format=3 uid="uid://b3sderqoel21m"]
+[gd_resource type="Resource" script_class="Kit" load_steps=11 format=3 uid="uid://bbug25uopol2o"]
 
 [ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_pck25"]
 [ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_73jfx"]

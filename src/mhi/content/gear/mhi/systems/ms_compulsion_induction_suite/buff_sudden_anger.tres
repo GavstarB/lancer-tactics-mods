@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://clickumbofigc"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Resource" uid="uid://djhmkl2yftwu7" path="res://content/gear/mhi/systems/ms_compulsion_induction_suite/buff_sudden_anger_target.tres" id="1_klk25"]
-[ext_resource type="Script" uid="uid://d3da15wedjgkv" path="res://content/gear/mhi/systems/ms_compulsion_induction_suite/buff_sudden_anger.gd" id="1_m5pm5"]
+[ext_resource type="Resource" path="res://content/gear/mhi/systems/ms_compulsion_induction_suite/buff_sudden_anger_target.tres" id="1_klk25"]
+[ext_resource type="Script" path="res://content/gear/mhi/systems/ms_compulsion_induction_suite/buff_sudden_anger.gd" id="1_m5pm5"]
 
 [resource]
 script = ExtResource("1_m5pm5")

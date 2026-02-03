@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3 uid="uid://ctodbbo7g6vwr"]
+[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3 uid="uid://cppkknqb0usqa"]
 
 [ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_jhlb7"]
 [ext_resource type="Texture2D" uid="uid://pb5jtn4amrw7" path="res://assets/icons/modded/ipsn-caliban/action_spike_grenade.png" id="1_ykey0"]

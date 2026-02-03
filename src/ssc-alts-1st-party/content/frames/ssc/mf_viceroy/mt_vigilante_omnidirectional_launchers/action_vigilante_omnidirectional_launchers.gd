@@ -21,7 +21,7 @@ func activate(context: Context, activation: EventCore) -> void :
 
     spend_actions(activation)
 
-    await FxGroup.run_attack_and_targets(
+    await CommonActionUtil.run_attack_and_target_fx(
         attack_fxg, context.unit, 
         target_fxg, plan.target_units, 
         null, [],

@@ -14,7 +14,7 @@ func activate(context: Context, activation: EventCore) -> void:
     charged[context.gear.persistent_id] = false
     context.gear.set_state("charged", charged)
     
-    await FxGroup.run_attack_and_targets(
+    await CommonActionUtil.run_attack_and_target_fx(
         fxg_use, context.unit, 
         fxg_target, [], 
         fxg_aoe, [], 

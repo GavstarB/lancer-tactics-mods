@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bgm8yp4eyyimo"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://b0ptdl6a1paeu" path="res://content/gear/mhi/systems/ms_ancalagon_nhp/buff_ancalagon_nhp.gd" id="1_h66ok"]
-[ext_resource type="Texture2D" uid="uid://bqo5wm3lkbv53" path="res://assets/icons/modded/mhi/ms_ancalagon_nhp.png" id="1_kt2rb"]
+[ext_resource type="Script" path="res://content/gear/mhi/systems/ms_ancalagon_nhp/buff_ancalagon_nhp.gd" id="1_h66ok"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/mhi/ms_ancalagon_nhp.png" id="1_kt2rb"]
 
 [resource]
 script = ExtResource("1_h66ok")

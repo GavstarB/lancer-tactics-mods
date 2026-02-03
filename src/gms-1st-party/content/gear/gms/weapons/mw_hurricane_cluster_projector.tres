@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=11 format=3 uid="uid://ddyrpplrubi2f"]
+[gd_resource type="Resource" script_class="Kit" load_steps=11 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_5emsr"]
-[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="2_1i3au"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_4s21b"]
-[ext_resource type="Texture2D" uid="uid://b8qdf2kfvkvtn" path="res://assets/icons/modded/gms-1st-party/mw_hurricane_cluster_projector.png" id="3_1i3au"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_wtaap"]
-[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="4_io4vj"]
-[ext_resource type="Script" uid="uid://c0yv6pnw2be6l" path="res://engine/character/gear_action/resources/range_pattern.gd" id="5_iy7s8"]
-[ext_resource type="Script" uid="uid://vi3dfs5ql3lg" path="res://engine/character/gear_action/action_attack_weapon.gd" id="6_vbn3e"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_5emsr"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/damage_value.gd" id="2_1i3au"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_4s21b"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/gms-1st-party/mw_hurricane_cluster_projector.png" id="3_1i3au"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_wtaap"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="4_io4vj"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/range_pattern.gd" id="5_iy7s8"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action_attack_weapon.gd" id="6_vbn3e"]
 
 [sub_resource type="Resource" id="Resource_yglt2"]
 script = ExtResource("5_iy7s8")

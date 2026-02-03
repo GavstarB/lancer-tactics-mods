@@ -1,8 +1,8 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://c84gom5crfice"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Texture2D" uid="uid://xqlhsbhyi4wj" path="res://assets/icons/modded/ipsn-zheng/xiaolis_tenacity.png" id="1_dlcir"]
-[ext_resource type="Script" uid="uid://bf8ttkcv54gab" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_tenacity.gd" id="1_luncs"]
-[ext_resource type="Script" uid="uid://udxarj3kb6nm" path="res://engine/character/unit/movement_type.gd" id="1_t8rms"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/xiaolis_tenacity.png" id="1_dlcir"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_tenacity.gd" id="1_luncs"]
+[ext_resource type="Script" path="res://engine/character/unit/movement_type.gd" id="1_t8rms"]
 
 [sub_resource type="Resource" id="Resource_dlcir"]
 script = ExtResource("1_t8rms")

@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3 uid="uid://b44x3wckbqe5g"]
+[gd_resource type="Resource" script_class="Buff" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_okd3y"]
-[ext_resource type="Texture2D" uid="uid://bcykv0f3k5n0q" path="res://assets/icons/modded/mhi/buff_foolish_urge.png" id="1_ul6om"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="1_okd3y"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/mhi/buff_foolish_urge.png" id="1_ul6om"]
 
 [resource]
 script = ExtResource("1_okd3y")

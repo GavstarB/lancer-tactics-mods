@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="BuffModifyAttackRoll" load_steps=2 format=3 uid="uid://drh1mbfj1dwl5"]
+[gd_resource type="Resource" script_class="BuffModifyAttackRoll" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://bc822ohbraldp" path="res://engine/character/buff/archtypes/buff_modify_attack_roll.gd" id="1_odl26"]
+[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_modify_attack_roll.gd" id="1_odl26"]
 
 [resource]
 script = ExtResource("1_odl26")

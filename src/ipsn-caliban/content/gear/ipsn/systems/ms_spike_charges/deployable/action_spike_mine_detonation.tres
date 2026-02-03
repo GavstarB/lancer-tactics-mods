@@ -1,11 +1,11 @@
-[gd_resource type="Resource" load_steps=7 format=3 uid="uid://b7fu0x6wcwq5k"]
+[gd_resource type="Resource" load_steps=7 format=3]
 
-[ext_resource type="Resource" uid="uid://ctodbbo7g6vwr" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_spike_grenade.tres" id="1_2b0gm"]
-[ext_resource type="Script" uid="uid://bi8txi8xvkbuq" path="res://content/gear/ipsn/systems/ms_spike_charges/deployable/action_spike_mine_detonation.gd" id="1_37t6x"]
-[ext_resource type="PackedScene" uid="uid://3dbqhshppkam" path="res://content/fx_groups/weapons/fxg_aoe_kinetic.tscn" id="1_x8tyv"]
-[ext_resource type="PackedScene" uid="uid://b5svma8gdtmfd" path="res://content/fx_groups/weapons/fxg_grenade_terminal.tscn" id="2_2b0gm"]
-[ext_resource type="Resource" uid="uid://75cb8e2gkacm" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_detonate_spike_grenades.tres" id="2_4n8ao"]
-[ext_resource type="Resource" uid="uid://boyfx15dxe67n" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_detonate_spike_grenades2.tres" id="3_72qaa"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_spike_grenade.tres" id="1_2b0gm"]
+[ext_resource type="Script" path="res://content/gear/ipsn/systems/ms_spike_charges/deployable/action_spike_mine_detonation.gd" id="1_37t6x"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/fxg_aoe_kinetic.tscn" id="1_x8tyv"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/fxg_grenade_terminal.tscn" id="2_2b0gm"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_detonate_spike_grenades.tres" id="2_4n8ao"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_detonate_spike_grenades2.tres" id="3_72qaa"]
 
 [resource]
 script = ExtResource("1_37t6x")

@@ -75,7 +75,7 @@ static func check_if_tile_is_free(tile: Vector2i, map: MapState) -> bool:
     if map.get_all_units_at_tile(tile).any( func(unit: Unit) -> bool:
         if unit.has_status(Lancer.STATUS.EXILED): return false
         if unit.has_status(Lancer.STATUS.FLYING): return false
-        if unit.core.frame.is_prop: return false
+        if unit.core.frame.is_marker(): return false
         return true
     ): return false
 
@@ -97,7 +97,7 @@ func activate_for_target(context: Context, activation: EventCore, target_unit: U
             object = specific, 
         })
     
-    await FxGroup.run_attack_and_targets(
+    await CommonActionUtil.run_attack_and_target_fx(
         fxg_use, target_unit, 
         fxg_target, [], 
         fxg_aoe, [], 

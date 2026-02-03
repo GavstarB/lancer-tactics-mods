@@ -1,8 +1,8 @@
-[gd_resource type="Resource" load_steps=4 format=3 uid="uid://dx4wpuuxc3kpk"]
+[gd_resource type="Resource" load_steps=4 format=3]
 
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_phl7s"]
-[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_07s00"]
-[ext_resource type="Script" uid="uid://cyk20mmf6fw2j" path="res://content/gear/ipsn/systems/wm_supermassive_mod/passive_supermassive_mod.gd" id="3_phl7s"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="1_phl7s"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_07s00"]
+[ext_resource type="Script" path="res://content/gear/ipsn/systems/wm_supermassive_mod/passive_supermassive_mod.gd" id="3_phl7s"]
 
 [resource]
 script = ExtResource("3_phl7s")

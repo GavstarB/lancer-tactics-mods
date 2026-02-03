@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="ActionSystemDeploy" load_steps=8 format=3 uid="uid://ds6aqqkysrf8o"]
+[gd_resource type="Resource" script_class="ActionSystemDeploy" load_steps=8 format=3]
 
-[ext_resource type="Script" uid="uid://2wdyuf507vdl" path="res://engine/character/gear_action/archtypes/action_system_deploy.gd" id="1_2ekwk"]
-[ext_resource type="Resource" uid="uid://8ynk7e07inin" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/deployable/dep_gi_soft_cover.tres" id="1_aehmt"]
-[ext_resource type="Texture2D" uid="uid://cp3bojvm682ta" path="res://assets/icons/cover_soft.svg" id="2_gqeeu"]
-[ext_resource type="Script" uid="uid://c0yv6pnw2be6l" path="res://engine/character/gear_action/resources/range_pattern.gd" id="4_el5l1"]
-[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_6co45"]
+[ext_resource type="Script" path="res://engine/character/gear_action/archtypes/action_system_deploy.gd" id="1_2ekwk"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/cp_gaia_inheritance/deployable/dep_gi_soft_cover.tres" id="1_aehmt"]
+[ext_resource type="Texture2D" path="res://assets/icons/cover_soft.svg" id="2_gqeeu"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/range_pattern.gd" id="4_el5l1"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_6co45"]
 
 [sub_resource type="Resource" id="Resource_edhue"]
 script = ExtResource("4_el5l1")

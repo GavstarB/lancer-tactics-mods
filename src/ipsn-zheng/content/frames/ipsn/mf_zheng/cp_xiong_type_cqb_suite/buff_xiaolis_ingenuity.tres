@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://c2ivbo2t60udr"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://c4prc7pnkfb6j" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.gd" id="1_kfub7"]
-[ext_resource type="Resource" uid="uid://c84gom5crfice" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_tenacity.tres" id="1_kyix3"]
+[ext_resource type="Script" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/buff_xiaolis_ingenuity.gd" id="1_kfub7"]
+[ext_resource type="Resource" path="res://content/frames/ipsn/mf_zheng/cp_xiong_type_cqb_suite/action_xiaolis_tenacity.tres" id="1_kyix3"]
 
 [resource]
 script = ExtResource("1_kfub7")

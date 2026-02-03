@@ -1,8 +1,8 @@
-[gd_resource type="Resource" load_steps=4 format=3 uid="uid://d0c4brd6jlnbr"]
+[gd_resource type="Resource" load_steps=4 format=3]
 
-[ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_84n0s"]
-[ext_resource type="Resource" uid="uid://d2mybukqulgs2" path="res://content/gear/ipsn/systems/ms_hardpoint_reinforcement/buff_hardpoint_reinforcement.tres" id="2_p6ojb"]
-[ext_resource type="Script" uid="uid://nms4u1i41iuv" path="res://content/gear/ipsn/systems/ms_hardpoint_reinforcement/action_hardpoint_reinforcement.gd" id="3_bkfer"]
+[ext_resource type="Script" path="res://engine/character/buff/buff.gd" id="1_84n0s"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/systems/ms_hardpoint_reinforcement/buff_hardpoint_reinforcement.tres" id="2_p6ojb"]
+[ext_resource type="Script" path="res://content/gear/ipsn/systems/ms_hardpoint_reinforcement/action_hardpoint_reinforcement.gd" id="3_bkfer"]
 
 [resource]
 script = ExtResource("3_bkfer")

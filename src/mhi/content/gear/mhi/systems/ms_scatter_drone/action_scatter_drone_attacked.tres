@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://hsp8iy7haje6"]
+[gd_resource type="Resource" load_steps=3 format=3]
 
-[ext_resource type="Script" uid="uid://crbct2p1b4ydf" path="res://content/gear/mhi/systems/ms_scatter_drone/action_scatter_drone_attacked.gd" id="1_8hef3"]
-[ext_resource type="PackedScene" uid="uid://dr737i0j1wlib" path="res://content/fx_groups/weapons/fxg_grenade_napalm_terminal.tscn" id="1_h5l0o"]
+[ext_resource type="Script" path="res://content/gear/mhi/systems/ms_scatter_drone/action_scatter_drone_attacked.gd" id="1_8hef3"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/fxg_grenade_napalm_terminal.tscn" id="1_h5l0o"]
 
 [resource]
 script = ExtResource("1_8hef3")

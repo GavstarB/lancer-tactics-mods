@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b1d2uu1temanc"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://cty0udt6s3i5t" path="res://content/gear/mhi/weapons/mw_dagorath_lance/buff_dagorath_lance_no_clear_heat.gd" id="1_simn0"]
+[ext_resource type="Script" path="res://content/gear/mhi/weapons/mw_dagorath_lance/buff_dagorath_lance_no_clear_heat.gd" id="1_simn0"]
 
 [resource]
 script = ExtResource("1_simn0")

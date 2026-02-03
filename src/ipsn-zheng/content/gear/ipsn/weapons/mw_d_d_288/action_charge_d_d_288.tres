@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://bhx0fyr80y0kc"]
+[gd_resource type="Resource" load_steps=5 format=3]
 
-[ext_resource type="Resource" uid="uid://dnnmlfn7oik2u" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_41opv"]
-[ext_resource type="PackedScene" uid="uid://cbsbq51t7vavy" path="res://content/fx_groups/actions/fxg_base_activation.tscn" id="1_ab5ec"]
-[ext_resource type="Script" uid="uid://bahoy6b2wotr1" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_charge_d_d_288.gd" id="1_rwiph"]
-[ext_resource type="Texture2D" uid="uid://bkhu871teb6ka" path="res://assets/icons/modded/ipsn-zheng/charge_d_d_288.png" id="3_qcgj2"]
+[ext_resource type="Resource" path="res://content/gear/ipsn/weapons/mw_d_d_288/buff_d_d_288.tres" id="1_41opv"]
+[ext_resource type="PackedScene" path="res://content/fx_groups/actions/fxg_base_activation.tscn" id="1_ab5ec"]
+[ext_resource type="Script" path="res://content/gear/ipsn/weapons/mw_d_d_288/action_charge_d_d_288.gd" id="1_rwiph"]
+[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-zheng/charge_d_d_288.png" id="3_qcgj2"]
 
 [resource]
 script = ExtResource("1_rwiph")

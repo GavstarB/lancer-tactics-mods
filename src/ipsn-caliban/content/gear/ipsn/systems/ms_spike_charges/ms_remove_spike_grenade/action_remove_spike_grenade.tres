@@ -1,9 +1,9 @@
-[gd_resource type="Resource" load_steps=5 format=3 uid="uid://spc6e2gpmsv"]
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dk3yv6ori6po6"]
 
 [ext_resource type="Script" uid="uid://cqrqkdgcf8mti" path="res://engine/character/buff/buff.gd" id="1_iunui"]
-[ext_resource type="Resource" uid="uid://ctodbbo7g6vwr" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_spike_grenade.tres" id="2_h0su6"]
+[ext_resource type="Resource" uid="uid://cppkknqb0usqa" path="res://content/gear/ipsn/systems/ms_spike_charges/buff_spike_grenade.tres" id="2_h0su6"]
 [ext_resource type="Texture2D" uid="uid://b273kuecryn2k" path="res://assets/icons/modded/ipsn-caliban/action_remove_spike_grenade.png" id="3_7lf5l"]
-[ext_resource type="Script" uid="uid://coh4aqbjfr6qo" path="res://content/gear/ipsn/systems/ms_spike_charges/ms_remove_spike_grenade/action_remove_spike_grenade.gd" id="4_h0su6"]
+[ext_resource type="Script" uid="uid://seho4u2t8t30" path="res://content/gear/ipsn/systems/ms_spike_charges/ms_remove_spike_grenade/action_remove_spike_grenade.gd" id="4_h0su6"]
 
 [resource]
 script = ExtResource("4_h0su6")
