@@ -1,12 +1,12 @@
-[gd_resource type="Resource" load_steps=9 format=3]
+[gd_resource type="Resource" load_steps=9 format=3 uid="uid://b5xxj0fjknta8"]
 
-[ext_resource type="Script" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_hcwl1"]
+[ext_resource type="Script" uid="uid://cs5u2sk1kig6i" path="res://engine/character/gear_action/resources/damage_value.gd" id="1_hcwl1"]
 [ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun_butt.tres" id="2_71od3"]
-[ext_resource type="Script" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_pui8x"]
+[ext_resource type="Script" uid="uid://d2nldg6e3doqd" path="res://engine/character/gear_action/resources/on_hit_effect.gd" id="2_pui8x"]
 [ext_resource type="Resource" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/buff_flayer_shotgun_autohit.tres" id="2_wulfx"]
-[ext_resource type="Script" path="res://engine/character/gear_action/resources/range_pattern.gd" id="3_pui8x"]
-[ext_resource type="Texture2D" path="res://assets/icons/modded/ipsn-caliban/mw_flayer_shotgun_autochoke.png" id="4_wulfx"]
-[ext_resource type="Script" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun.gd" id="5_b024g"]
+[ext_resource type="Script" uid="uid://c0yv6pnw2be6l" path="res://engine/character/gear_action/resources/range_pattern.gd" id="3_pui8x"]
+[ext_resource type="Texture2D" uid="uid://cdt8r41q73tq8" path="res://assets/icons/modded/ipsn-caliban/mw_flayer_shotgun_autochoke.png" id="4_wulfx"]
+[ext_resource type="Script" uid="uid://tfad5hllc17m" path="res://content/frames/ipsn/mf_caliban/cp_flayer_shotgun/action_flayer_shotgun.gd" id="5_b024g"]
 
 [sub_resource type="Resource" id="Resource_b024g"]
 script = ExtResource("3_pui8x")
