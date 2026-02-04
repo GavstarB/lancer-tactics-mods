@@ -1,10 +1,10 @@
-[gd_resource type="Resource" load_steps=7 format=3]
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://c30aqp05lxit7"]
 
-[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/fxg_avenger_silos.tscn" id="1_sko12"]
-[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/buff_vigilante_launchers.png" id="2_4e0tc"]
-[ext_resource type="Script" path="res://content/frames/ssc/mf_viceroy/mt_vigilante_omnidirectional_launchers/action_vigilante_omnidirectional_launchers.gd" id="2_508yc"]
-[ext_resource type="PackedScene" path="res://content/fx_groups/weapons/launchers/fxg_main_launcher_target.tscn" id="3_508yc"]
-[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_508yc"]
+[ext_resource type="PackedScene" uid="uid://cesecci28hf4t" path="res://content/fx_groups/weapons/fxg_avenger_silos.tscn" id="1_sko12"]
+[ext_resource type="Texture2D" uid="uid://r6614210jxr2" path="res://assets/icons/modded/ssc-alts-1st-party/buff_vigilante_launchers.png" id="2_4e0tc"]
+[ext_resource type="Script" uid="uid://dfb72c3ro5lsn" path="res://content/frames/ssc/mf_viceroy/mt_vigilante_omnidirectional_launchers/action_vigilante_omnidirectional_launchers.gd" id="2_508yc"]
+[ext_resource type="PackedScene" uid="uid://71kpaq4q8sry" path="res://content/fx_groups/weapons/launchers/fxg_main_launcher_target.tscn" id="3_508yc"]
+[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_508yc"]
 
 [sub_resource type="Resource" id="Resource_4e0tc"]
 script = ExtResource("4_508yc")

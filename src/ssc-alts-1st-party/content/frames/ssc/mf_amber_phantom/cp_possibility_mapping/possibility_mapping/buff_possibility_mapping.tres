@@ -1,12 +1,12 @@
-[gd_resource type="Resource" script_class="BuffDamage" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="BuffDamage" load_steps=3 format=3 uid="uid://byj0lupvcjl3b"]
 
-[ext_resource type="Script" path="res://engine/character/buff/archtypes/buff_damage.gd" id="1_5xg7c"]
-[ext_resource type="Texture2D" path="res://assets/icons/modded/ssc-alts-1st-party/action_possibility_mapping.png" id="1_6xi1b"]
+[ext_resource type="Script" uid="uid://cq0gb4by4uruk" path="res://engine/character/buff/archtypes/buff_damage.gd" id="1_5xg7c"]
+[ext_resource type="Texture2D" uid="uid://d20512yd08ruv" path="res://assets/icons/modded/ssc-alts-1st-party/action_possibility_mapping.png" id="1_6xi1b"]
 
 [resource]
 script = ExtResource("1_5xg7c")
 damage_dice = "1d6"
-until = 8
+until = 9
 to = 8
 is_onetime = true
 multiple_copies_can_stack = true

@@ -1,8 +1,8 @@
-[gd_resource type="Resource" load_steps=5 format=3]
+[gd_resource type="Resource" load_steps=5 format=3 uid="uid://dcbkbcmpggbom"]
 
-[ext_resource type="Resource" path="res://content/frames/deployables/dep_debris_cover_ramp.tres" id="1_17k3o"]
-[ext_resource type="Script" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_deploy_hard_cover.gd" id="1_pgwgm"]
-[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="3_6m53v"]
+[ext_resource type="Resource" uid="uid://cfyu34tup4j3s" path="res://content/frames/deployables/dep_debris_cover_ramp.tres" id="1_17k3o"]
+[ext_resource type="Script" uid="uid://bcmwab4ehqdrq" path="res://content/frames/ipsn/mf_zheng/mt_destructive_swings/action_deploy_hard_cover.gd" id="1_pgwgm"]
+[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="3_6m53v"]
 
 [sub_resource type="Resource" id="Resource_o3vla"]
 script = ExtResource("3_6m53v")
