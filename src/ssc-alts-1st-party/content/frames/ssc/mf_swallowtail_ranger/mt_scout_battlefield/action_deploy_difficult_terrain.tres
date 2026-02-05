@@ -1,10 +1,10 @@
-[gd_resource type="Resource" load_steps=8 format=3 uid="uid://dkynhpn3uu50r"]
+[gd_resource type="Resource" load_steps=8 format=3]
 
-[ext_resource type="Resource" uid="uid://cbtq3b482iuqe" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/deployable/dep_sb_difficult_terrain.tres" id="1_64062"]
-[ext_resource type="Texture2D" uid="uid://dv76i1cwwdl0q" path="res://assets/icons/difficult_terrain.svg" id="2_1bm13"]
-[ext_resource type="Script" uid="uid://c0yv6pnw2be6l" path="res://engine/character/gear_action/resources/range_pattern.gd" id="3_1bm13"]
-[ext_resource type="Script" uid="uid://cd1oqk40j0sbp" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_to_all_tiles.gd" id="3_iincc"]
-[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_iincc"]
+[ext_resource type="Resource" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/deployable/dep_sb_difficult_terrain.tres" id="1_64062"]
+[ext_resource type="Texture2D" path="res://assets/icons/difficult_terrain.svg" id="2_1bm13"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/range_pattern.gd" id="3_1bm13"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_to_all_tiles.gd" id="3_iincc"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="4_iincc"]
 
 [sub_resource type="Resource" id="Resource_uyguq"]
 script = ExtResource("3_1bm13")

@@ -1,12 +1,12 @@
-[gd_resource type="Resource" script_class="Kit" load_steps=11 format=3 uid="uid://da2nnsyst0udt"]
+[gd_resource type="Resource" script_class="Kit" load_steps=11 format=3]
 
-[ext_resource type="Script" uid="uid://b8unc74nyhjr0" path="res://engine/character/gear_action/action.gd" id="1_hpsgl"]
-[ext_resource type="Script" uid="uid://n33no7rw7y82" path="res://engine/character/gear_passive/passive.gd" id="2_yelgx"]
-[ext_resource type="Script" uid="uid://ckrv6mvs5q65e" path="res://engine/character/gear/kit.gd" id="3_pl7vk"]
-[ext_resource type="PackedScene" uid="uid://765cdbmc1iak" path="res://content/fx_endless/gear/fxe_whitewash_sealant_spray.tscn" id="3_w1jqi"]
-[ext_resource type="Script" uid="uid://c0yv6pnw2be6l" path="res://engine/character/gear_action/resources/range_pattern.gd" id="4_8ovpb"]
-[ext_resource type="Script" uid="uid://cdg8upk76j000" path="res://engine/character/gear_passive/passive_terrain_zone.gd" id="5_g5q8x"]
-[ext_resource type="Script" uid="uid://bhirgicgi66th" path="res://engine/gamemaster/map/terrain/terrain_data.gd" id="6_wxydq"]
+[ext_resource type="Script" path="res://engine/character/gear_action/action.gd" id="1_hpsgl"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive.gd" id="2_yelgx"]
+[ext_resource type="Script" path="res://engine/character/gear/kit.gd" id="3_pl7vk"]
+[ext_resource type="PackedScene" path="res://content/fx_endless/gear/fxe_whitewash_sealant_spray.tscn" id="3_w1jqi"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/range_pattern.gd" id="4_8ovpb"]
+[ext_resource type="Script" path="res://engine/character/gear_passive/passive_terrain_zone.gd" id="5_g5q8x"]
+[ext_resource type="Script" path="res://engine/gamemaster/map/terrain/terrain_data.gd" id="6_wxydq"]
 
 [sub_resource type="Resource" id="Resource_gtw7g"]
 script = ExtResource("4_8ovpb")

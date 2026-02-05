@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://djea5tgaacang"]
+[gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dlydj0snhmg0l" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/buff_perfect_parry_post.gd" id="1_vncbs"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_orchis/mt_perfect_parry/buff_perfect_parry_post.gd" id="1_vncbs"]
 
 [resource]
 script = ExtResource("1_vncbs")

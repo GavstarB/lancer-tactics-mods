@@ -1,10 +1,10 @@
-[gd_resource type="Resource" load_steps=8 format=3 uid="uid://dw4qbtkf3gue1"]
+[gd_resource type="Resource" load_steps=8 format=3]
 
-[ext_resource type="Resource" uid="uid://s3x5ksc1wvb0" path="res://content/frames/deployables/dep_debris_cover.tres" id="1_pepu7"]
-[ext_resource type="Texture2D" uid="uid://dwyy5f52fp8mp" path="res://assets/icons/cover_hard.svg" id="2_4mrvc"]
-[ext_resource type="Script" uid="uid://cd1oqk40j0sbp" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_to_all_tiles.gd" id="3_pepu7"]
-[ext_resource type="Script" uid="uid://c0yv6pnw2be6l" path="res://engine/character/gear_action/resources/range_pattern.gd" id="4_77j1u"]
-[ext_resource type="Script" uid="uid://df1yicp7kbf3x" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_66e3a"]
+[ext_resource type="Resource" path="res://content/frames/deployables/dep_debris_cover.tres" id="1_pepu7"]
+[ext_resource type="Texture2D" path="res://assets/icons/cover_hard.svg" id="2_4mrvc"]
+[ext_resource type="Script" path="res://content/frames/ssc/mf_swallowtail_ranger/mt_scout_battlefield/action_deploy_to_all_tiles.gd" id="3_pepu7"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/range_pattern.gd" id="4_77j1u"]
+[ext_resource type="Script" path="res://engine/character/gear_action/resources/target_requirements.gd" id="5_66e3a"]
 
 [sub_resource type="Resource" id="Resource_uyguq"]
 script = ExtResource("4_77j1u")
