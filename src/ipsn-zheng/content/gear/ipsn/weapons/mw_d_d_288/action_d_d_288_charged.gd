@@ -37,15 +37,15 @@ func activate(context: Context, activation: EventCore) -> void:
         if Unit.is_valid(context.unit):
             UnitCondition.clear_buff_id(activation, context.unit, buff.compcon_id, context.gear.persistent_id)
 
-func get_attacked_tiles_and_units_from_plan(activation: EventCore, specific: SpecificAction, plan: CompconPlan) -> Dictionary:
+func get_attacked_tiles_and_units_from_plan(context: Context, specific: SpecificAction, plan: CompconPlan) -> Dictionary:
     for target_tile in plan.target_tiles:
-        var attacked_units: = activation.context.map.get_all_units_at_tiles([target_tile], specific.unit)
+        var attacked_units: = context.map.get_all_units_at_tiles([target_tile], specific.unit)
         if not attacked_units.is_empty():
-            var unit = await TargetActionUtil.disambiguate_target_tile_to_single_unit(target_tile, specific, activation.context.unit)
+            var unit = await TargetActionUtil.disambiguate_target_tile_to_single_unit(target_tile, specific, context.unit)
             plan.target_units.append(unit)
             plan.target_tiles = []
     
-    return super.get_attacked_tiles_and_units_from_plan(activation, specific, plan)
+    return super.get_attacked_tiles_and_units_from_plan(context, specific, plan)
 
 func automatically_hits_terrain_and_objects(specific: SpecificAction) -> bool: return true
 
