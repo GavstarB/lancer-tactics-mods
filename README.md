@@ -1,3 +1,6 @@
+> [!WARNING]
+> Lancer Tactics now has official mod support! The old modloader is now obsolete and the mods in this repository will only work with game version v0.6.0 and earlier. These mods have all been converted to the new system and can be found on [mod.io](https://mod.io/g/lancer-tactics/u/gavstarb?tags=Mod). They can also be downloaded from the in-game community content menu. Pilots created using the old modloader should be compatible with the new system.
+
 # Lancer Tactics Mods
 Mods I have made for the game [Lancer Tactics](https://wick.itch.io/lancer-tactics) using my [modloader](https://github.com/GavstarB/lancer-tactics-modloader).
 

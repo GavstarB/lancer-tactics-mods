@@ -140,34 +140,38 @@ func get_unit_core() -> UnitCore:
         
         #print_children(node)
         #node.print_tree_pretty()
-        return node.unit_core
+        if(node != null):
+            return node.unit_core
     return null
 
 func on_character_sheet_opened():
     #print("character sheet opened")
     var unit_core = get_unit_core()
-    #print(unit_core.frame.compcon_id)
-    prev_frame_id = unit_core.frame.compcon_id
-    unit_core_cache = unit_core
+    if(unit_core != null):
+        #print(unit_core.frame.compcon_id)
+        prev_frame_id = unit_core.frame.compcon_id
+        unit_core_cache = unit_core
 
 func on_changed_character():
     #print("character changed")
     var unit_core = get_unit_core()
-    #print(unit_core.frame.compcon_id, " ", prev_frame_id)
-    if(unit_core.frame.compcon_id != prev_frame_id):
-        clear_illegal_mounts(unit_core)
+    if(unit_core != null):
+        #print(unit_core.frame.compcon_id, " ", prev_frame_id)
+        if(unit_core.frame.compcon_id != prev_frame_id):
+            clear_illegal_mounts(unit_core)
+            
+            prev_frame_id = unit_core.frame.compcon_id
         
-        prev_frame_id = unit_core.frame.compcon_id
-    
-    remove_weapons_from_licenses()
-    unit_core_cache = unit_core
+        remove_weapons_from_licenses()
+        unit_core_cache = unit_core
 
 func on_pick_weapon(mount: MechMount, primary: bool):
     #print("pick weapon")
     remove_weapons_from_licenses()
     var unit_core = get_unit_core()
-    if(unit_core.frame.compcon_id == frame_id):
-        add_weapons_to_licenses(unit_core)
+    if(unit_core != null):
+        if(unit_core.frame.compcon_id == frame_id):
+            add_weapons_to_licenses(unit_core)
 
 func on_character_sheet_closed():
     remove_weapons_from_licenses()
@@ -208,34 +212,35 @@ func clear_illegal_mounts(unit_core = null):
     if(unit_core == null):
         unit_core = get_unit_core()
     
-    if(unit_core_cache != null):
-        #print("remove")
-        #if(prev_frame_id == frame_id):
-        if(unit_core.frame.compcon_id != frame_id):
-            for weapon in unit_core_cache.loadout.get_all_weapons():
-                for mount in unit_core_cache.loadout.mounts:
-                    if(mount.contains_gear(weapon) and weapon.kit.compcon_id.contains(suffix)):
-                        #print(weapon.kit.compcon_id)
-                        #mount.clear()
-                        if(weapon == mount.slot_primary):
-                            mount.slot_primary.kit = ContentLibrary.main.gear_library[weapon.kit.compcon_id.replace(suffix, "") as StringName]
-                        elif(weapon == mount.slot_secondary):
-                            mount.slot_secondary.kit = ContentLibrary.main.gear_library[weapon.kit.compcon_id.replace(suffix, "") as StringName]
-        else:
-            for weapon in unit_core_cache.loadout.get_all_weapons():
-                for mount in unit_core_cache.loadout.mounts:
-                    if(mount.contains_gear(weapon) and not weapon.kit.compcon_id.contains(suffix)):
-                        var valid = false
-                        if not (weapon.kit.is_core_power() or weapon.kit.is_trait):
-                            for action: ActionAttackWeapon in weapon.kit.get_weapon_actions():
-                                if action.is_weapon_type(Lancer.WEAPON_TYPE.LAUNCHER) and not action.is_weapon_type(Lancer.WEAPON_TYPE.CQB):
-                                    valid = true
-                            if valid:
-                                #mount.clear()
-                                if(weapon == mount.slot_primary):
-                                    mount.slot_primary.kit = ContentLibrary.main.gear_library[(weapon.kit.compcon_id + suffix) as StringName]
-                                elif(weapon == mount.slot_secondary):
-                                    mount.slot_secondary.kit = ContentLibrary.main.gear_library[(weapon.kit.compcon_id + suffix) as StringName]
-            unit_core_cache = null
+    if(unit_core != null):
+        if(unit_core_cache != null):
+            #print("remove")
+            #if(prev_frame_id == frame_id):
+            if(unit_core.frame.compcon_id != frame_id):
+                for weapon in unit_core_cache.loadout.get_all_weapons():
+                    for mount in unit_core_cache.loadout.mounts:
+                        if(mount.contains_gear(weapon) and weapon.kit.compcon_id.contains(suffix)):
+                            #print(weapon.kit.compcon_id)
+                            #mount.clear()
+                            if(weapon == mount.slot_primary):
+                                mount.slot_primary.kit = ContentLibrary.main.gear_library[weapon.kit.compcon_id.replace(suffix, "") as StringName]
+                            elif(weapon == mount.slot_secondary):
+                                mount.slot_secondary.kit = ContentLibrary.main.gear_library[weapon.kit.compcon_id.replace(suffix, "") as StringName]
+            else:
+                for weapon in unit_core_cache.loadout.get_all_weapons():
+                    for mount in unit_core_cache.loadout.mounts:
+                        if(mount.contains_gear(weapon) and not weapon.kit.compcon_id.contains(suffix)):
+                            var valid = false
+                            if not (weapon.kit.is_core_power() or weapon.kit.is_trait):
+                                for action: ActionAttackWeapon in weapon.kit.get_weapon_actions():
+                                    if action.is_weapon_type(Lancer.WEAPON_TYPE.LAUNCHER) and not action.is_weapon_type(Lancer.WEAPON_TYPE.CQB):
+                                        valid = true
+                                if valid:
+                                    #mount.clear()
+                                    if(weapon == mount.slot_primary):
+                                        mount.slot_primary.kit = ContentLibrary.main.gear_library[(weapon.kit.compcon_id + suffix) as StringName]
+                                    elif(weapon == mount.slot_secondary):
+                                        mount.slot_secondary.kit = ContentLibrary.main.gear_library[(weapon.kit.compcon_id + suffix) as StringName]
+                unit_core_cache = null
         
         
